@@ -17,7 +17,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="{{ url('booking') }}">Reservation</a>
-                    <a class="dropdown-item" href="#">Calendar</a>
+                    <a class="dropdown-item" href="{{ url('calendar') }}">Calendar</a>
                 </div>
             </li>
             <li class="nav-item mr-4">

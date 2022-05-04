@@ -40,3 +40,11 @@ Route::get('/faqs', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 });
+
+Route::get('/booking', function () {
+    return view('booking');
+});
+
+Route::get('/calendar', function () {
+    return view('calendar');
+});
