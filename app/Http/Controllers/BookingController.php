@@ -25,7 +25,7 @@ class BookingController extends Controller
         $date = $request->get('date');
         $location = $request->get('location');
 
-        if (!$title && !$date && !$location) {
+        if (!$title && !$location) {
             return response()->json(['error' => 'Please complete all the fields']);
         }
 

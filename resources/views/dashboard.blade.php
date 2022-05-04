@@ -18,21 +18,20 @@
             Something went wrong!
         </div>
 
-        <h1 class="text-left pt-5 pb-5 display-4"><strong>Dashboard</strong></h2>
+        <h1 class="text-left pt-5 display-4"><strong>Dashboard</strong></h2>
+            <h4 class="text-left pb-4">These are your bookings</h4>
             <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8); border-radius: 10px;" id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel" data-pause="hover">
                 <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto'; text-align: center;">
                     <thead>
                         <tr>
-                            <th scope="col">Time</th>
-                            <th scope="col">Chair #1</th>
-                            <th scope="col">Chair #2</th>
-                            <th scope="col">Chair #3</th>
-                            <th scope="col">Chair #4</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Location</th>
                         </tr>
                     </thead>
-                    <tbody>
-
-                    </tbody>
+                    <tbody></tbody>
                 </table>
             </div>
 

@@ -2,6 +2,8 @@
     var userToken;
     $(function() {
 
+        loadBookings();
+
         // if (window.location.href == "http://127.0.0.1:8000/login") {
         //     loadUser();
         // }
@@ -37,6 +39,26 @@
                 $('#errorMsg').html(errorMsg.error).removeClass('d-none');
             });
         });
+
+        function loadBookings() {
+            $('#bookingList').html("");
+            var request = $.ajax({
+                url: "/api/bookings",
+                type: "GET",
+            });
+
+            request.done(function(response, textStatus, jqXHR) {
+                var data = response.data;
+
+                data.map(booking => {
+                    $('#bookingList').append(`
+                        <tr>
+                            
+                        </tr>
+                    `);
+                })
+            });
+        }
 
         $('#logout').on('click', function() {
 
