@@ -21,7 +21,7 @@
             <div class="m-3" style="background-color:#F4EFEB; border-radius:25px;">
                 <div class="row m-4">
                     <div class="col mt-4">
-                        <p class="text-left pt-5 mt-5">User friendly workspace scheduling software</p>
+                        <p class="text-left pt-5 mt-5">User Friendly Workspace Scheduling Software</p>
                         <h1 class="text-left pb-5 display-4"><strong>#GetThingsDone</strong></h1>
                         <p>Hot Desk ensures a worthy service that allows organizations to automate booking tasks hassle free.</p>
                     </div>
@@ -34,9 +34,7 @@
             <div class="pt-3">
                 <h2 class="text-center pb-5 display-4"><strong>E-Machine</strong></h2>
                 <div class="text-center pb-5 mb-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>
+                    <p>eMachine is an Australian-based technology organization that design, create, and innovate consumer electronics, computer machines, digital devices, and related services for the betterment not just of Australian lives, but of people all around the globe.</p>
                 </div>
             </div>
 
@@ -79,7 +77,9 @@
                         <div class="row">
                             <div class="col">
                                 <h3 class="text-center pt-5">Dashboard View</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>
+                                <p>Provides users with a unique and powerful way visualization to present all bookings made by users—shows actionable and valuable information at a glance in an effective dashboard.</p>
+                                <li>Provide insights of bookings made by all users with a table view.</li>
+                                <li>Allow users to view how many available, occupied and reserved desks.</li>
                             </div>
                             <div class="col pt-5 d-flex justify-content-center">
                                 <img src="{{URL('images/dashboard.png')}} " width="372" height="372">
@@ -93,7 +93,8 @@
                             </div>
                             <div class="col">
                                 <h3 class="text-center mb-4 pt-4">Office Map & Desk Locations</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>
+                                <p>Custom designed maps take the booking experience to the next level. Amaze your users with a complete visual of your space! It allows your users to view availability, occupied and reserved bookings directly from an office map and desk locations. </p>
+                                <li>A full-scale office map with desk location allows users to decide where to book quickly.</li>
                             </div>
                         </div>
                     </div>
@@ -117,7 +118,9 @@
                             </div>
                             <div class="col pb-5">
                                 <h3 class="text-center mb-4 pt-5 d-flex justify-content-center">Help & Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>
+                                <p>Quickly find answers to users' questions and solutions to the problems. Help and Support design to resolve many common queries that users experience.</p>
+                                <li>Enables users to get help using user guides, frequently asked questions and a privacy disclaimer.</li>
+                                <li>Make it simple for customers to find the answers they're looking for.</li>
                             </div>
                         </div>
                     </div>
