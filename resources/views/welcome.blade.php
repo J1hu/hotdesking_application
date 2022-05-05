@@ -66,7 +66,7 @@
                             </div>
                             <div class="col">
                                 <h3 class="text-center pt-5">Booking</h3>
-                                <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you cannow have a colaborative and ideal workplace in the organization.</p>
+                                <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you can now have a collaborative and ideal workplace in the organization.</p>
                                 <li>Effortless reservation and booking depends on your preferred day and time.</li>
                                 <li>Flexible changes into your work calendar.</li>
                                 <li>Easily book and reserve desks with an interactive map.</li>
@@ -79,7 +79,7 @@
                                 <h3 class="text-center pt-5">Dashboard View</h3>
                                 <p>Provides users with a unique and powerful way visualization to present all bookings made by users—shows actionable and valuable information at a glance in an effective dashboard.</p>
                                 <li>Provide insights of bookings made by all users with a table view.</li>
-                                <li>Allow users to view how many available, occupied and reserved desks.</li>
+                                <li>Allow users to view how many desks are available, occupied and reserved.</li>
                             </div>
                             <div class="col pt-5 d-flex justify-content-center">
                                 <img src="{{URL('images/dashboard.png')}} " width="372" height="372">
@@ -104,7 +104,7 @@
                                 <h3 class="text-center mb-4 pt-5">Work Calendar</h3>
                                 <p>Build to operate the organization’s activities with more effective and efficient to boost productivity within the company. </p>
                                 <li>Easily back track all the activities done in the records.</li>
-                                <li>Hassle-free management with simple and easy to use set-up.</li>
+                                <li>Hassle-free management with simple and easy to use setup.</li>
                             </div>
                             <div class="col pt-5 d-flex justify-content-center">
                                 <img src="{{URL('images/calendar.png')}}">
@@ -118,7 +118,7 @@
                             </div>
                             <div class="col pb-5">
                                 <h3 class="text-center mb-4 pt-5 d-flex justify-content-center">Help & Support</h3>
-                                <p>Quickly find answers to users' questions and solutions to the problems. Help and Support design to resolve many common queries that users experience.</p>
+                                <p>Quickly find answers to users' questions and solutions to the problems. Help and Support is designed to resolve many common queries that users experience.</p>
                                 <li>Enables users to get help using user guides, frequently asked questions and a privacy disclaimer.</li>
                                 <li>Make it simple for customers to find the answers they're looking for.</li>
                             </div>
