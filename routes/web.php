@@ -45,7 +45,7 @@ Route::get('/booking', function () {
     return view('booking');
 });
 
-Route::get('/calendar', function () {
+Route::get('/bookings', function () {
     return view('calendar');
 });
 

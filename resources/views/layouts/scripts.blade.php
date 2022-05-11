@@ -1,6 +1,7 @@
 <script>
     $(function() {
         loadNav();
+        checkUser();
 
         if (window.location.href == "http://127.0.0.1:8000/dashboard") {
             loadUserBookings();
@@ -18,6 +19,20 @@
             let loggedIn = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
             if (loggedIn) {
                 window.location.href = "{{ url('dashboard') }}";
+            }
+        }
+
+        function checkUser() {
+            let loggedIn = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
+
+            if (!loggedIn) {
+                if (window.location.href == "http://127.0.0.1:8000/dashboard") {
+                    window.location.href = "{{ url('login') }}";
+                } else if (window.location.href == "http://127.0.0.1:8000/bookings") {
+                    window.location.href = "{{ url('login') }}";
+                } else if (window.location.href == "http://127.0.0.1:8000/booking") {
+                    window.location.href = "{{ url('login') }}";
+                }
             }
         }
 

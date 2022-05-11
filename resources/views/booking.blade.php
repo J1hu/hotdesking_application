@@ -18,11 +18,10 @@
         <main>
             <div class="container-fluid">
                 <div class="row">
-
                     <!--LEFT SIDE -->
-                    <div class="col-lg-8" style="background-color:#F4EFEB">
-                        <h1 class="mb-1 py-5 ml-5 pl-5"> Desk Reservation</h1>
-                        <form class="ml-5 pl-5 mr-5 pr-5">
+                    <div class="col-lg" style="background-color:#F4EFEB">
+                        <h1 class="mb-1 py-5 ml-5 pl-5 display-3 font-weight-bold"> Desk Reservation</h1>
+                        <form class="ml-5 pl-5 mr-5 pr-5 mt-5 pt-5">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="firstname">Title</label>
@@ -49,18 +48,15 @@
                                 </div>
                             </div>
                         </form>
-                        <div class="mx-5 px-5 my-4 py-4">
-                            <img src="{{ asset('images/calendar-view.png') }}" class="rounded mx-auto d-block w-75 h-75" alt="Responsive image">
-                        </div>
                     </div>
 
                     <!--RIGHT SIDE -->
-                    <div class="col-lg-4">
+                    <div class="col-lg-6 text-center">
                         <div class="container">
                             <div class="w-150 h-150">
-                                <img src="{{ asset('images/map-90.png') }}" class="d-block mx-auto my-5" alt="Responsive image">
+                                <img src="{{ asset('images/map-90.png') }}" class="my-5" alt="Responsive image">
                             </div>
-                            <h2 class="font-weight-bold text-right pb-3">DESK LOCATIONS</h2>
+                            <h2 class="font-weight-bold text-center pb-3">DESK LOCATIONS</h2>
                         </div>
                     </div>
                 </div>
