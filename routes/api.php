@@ -19,14 +19,14 @@ use Illuminate\Support\Facades\Route;
 Route::post('/login', [UserController::class, 'login']);
 Route::post('/register', [UserController::class, 'register']);
 
-Route::get('/users', [UserController::class, 'index']);
-Route::get('/logout', [UserController::class, 'logout']);
-Route::get('/user/{id}', [UserController::class, 'get']);
+Route::group(['middleware' => ['validateToken']], function () {
+    Route::get('/users', [UserController::class, 'index']);
+    Route::get('/logout', [UserController::class, 'logout']);
+    Route::get('/user/{id}', [UserController::class, 'get']);
 
-Route::get('/bookings', [BookingController::class, 'index']);
-Route::post('/booking', [BookingController::class, 'create']);
-Route::put('/booking/{id}', [BookingController::class, 'update']);
-Route::delete('/booking/{id}', [BookingController::class, 'delete']);
-
-// Route::group(['middleware' => ['validateToken']], function () {
-// });
+    Route::get('/bookings', [BookingController::class, 'index']);
+    Route::post('/booking', [BookingController::class, 'create']);
+    Route::get('/booking/{id}', [BookingController::class, 'get']);
+    Route::put('/booking/{id}', [BookingController::class, 'update']);
+    Route::delete('/booking/{id}', [BookingController::class, 'delete']);
+});

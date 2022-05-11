@@ -24,14 +24,13 @@
                 <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto'; text-align: center;">
                     <thead>
                         <tr>
-                            <th scope="col">Name</th>
                             <th scope="col">Title</th>
                             <th scope="col">Description</th>
                             <th scope="col">Date</th>
                             <th scope="col">Location</th>
                         </tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody id="userBookingList"></tbody>
                 </table>
             </div>
 

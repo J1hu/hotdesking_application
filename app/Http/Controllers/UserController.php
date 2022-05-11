@@ -64,12 +64,15 @@ class UserController extends Controller
 
         $user->makeVisible(['token']);
 
-        return response()->json(['data' => $token]);
+        return response()->json(['data' => $user]);
     }
 
     public function logout(Request $request)
     {
-        $auth = auth() == false;
+        $user = $request->get('user');
+
+        $user->token = null;
+        $user->save();
 
         return response()->json(['data' => 'Successfully logged out'], 200);
     }

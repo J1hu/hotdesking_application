@@ -21,10 +21,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
-
 Route::get('/support', function () {
     return view('support');
 });
@@ -41,10 +37,18 @@ Route::get('/privacy', function () {
     return view('privacy');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
 Route::get('/booking', function () {
     return view('booking');
 });
 
 Route::get('/calendar', function () {
     return view('calendar');
+});
+
+Route::get('/alkhsjdlkshdfkjhadseurhgodjfnhvkjojeoirhgoeifhjgodjhfgiouerhjnfk', function () {
+    return view('register');
 });

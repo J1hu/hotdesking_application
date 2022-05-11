@@ -14,18 +14,26 @@ class BookingController extends Controller
         return response()->json(['data' => $bookings], 200);
     }
 
-    public function get(Request $request)
+    public function get(Request $request, $userId)
     {
+        $bookings = Booking::where('user_id', $userId)->get();
+
+        if (!$bookings) {
+            return response()->json(['error', 'Bookings not found'], 404);
+        }
+
+        return response()->json(['data' => $bookings->values()], 200);
     }
 
     public function create(Request $request)
     {
+        $user = $request->get('user');
         $title = $request->get('title');
         $description = $request->get('description');
         $date = $request->get('date');
         $location = $request->get('location');
 
-        if (!$title && !$location) {
+        if (!$title) {
             return response()->json(['error' => 'Please complete all the fields']);
         }
 
@@ -35,6 +43,7 @@ class BookingController extends Controller
         }
 
         $newBooking = Booking::create([
+            'user_id' => $user->id,
             'title' => $title,
             'description' => $description,
             'date' => $date,
@@ -56,7 +65,7 @@ class BookingController extends Controller
             return response()->json(['error' => 'Booking not found'], 404);
         }
 
-        if (!$title || !$date || !$location) {
+        if (!$title) {
             return response()->json(['error' => 'Please enter all required fields']);
         }
 
