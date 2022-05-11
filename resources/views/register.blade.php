@@ -12,7 +12,7 @@
 <body>
     <div class="container mt-5 pl-5 pr-5">
         <div class="form-group">
-            <label for="firstname">Fist Name</label>
+            <label for="firstname">First Name</label>
             <input type="text" class="form-control" id="firstname" placeholder="Fist Name">
         </div>
         <div class="form-group">

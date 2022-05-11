@@ -29,12 +29,12 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right col-md" aria-labelledby="navbarDropdownMenuLink">
                     <div class="container pt-2">
-                        <div class="row mb-3 mx-auto">
-                            <img src="{{ asset('images/default-avatar.png') }}" alt="..." class="rounded-circle" width="100" height="100">
-                        </div>
-                        <div class="row">
-                            <p class="username mb-0 text-center" id="username">Rengoku Kyoujiro</p>
-                            <p class="email text-warning text-center" id="email">ISPM - Group 1</p>
+                        <div class="row mb-3 mx-auto text-center justify-content-center">
+                            <img src="{{ asset('images/default-avatar.png') }}" alt="..." class="rounded-circle mb-2 border border-secondary" width="100" height="100">
+                            <p class="text-center mt-2 mb-1">
+                                <span class="pr-1" id="dashboardName"></span>
+                            </p>
+                            <span class="text-center pt-1" id="dashboardEmail"></span>
                         </div>
                     </div>
 

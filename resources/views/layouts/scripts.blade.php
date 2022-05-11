@@ -1,5 +1,6 @@
 <script>
     $(function() {
+        loadNav();
 
         if (window.location.href == "http://127.0.0.1:8000/dashboard") {
             loadUserBookings();
@@ -18,6 +19,15 @@
             if (loggedIn) {
                 window.location.href = "{{ url('dashboard') }}";
             }
+        }
+
+        function loadNav() {
+            let fname = JSON.parse(sessionStorage.getItem('firstname'));
+            let lname = JSON.parse(sessionStorage.getItem('lastname'));
+            let email = JSON.parse(sessionStorage.getItem('email'));
+
+            $('#dashboardName').html(`${fname} ${lname}`);
+            $('#dashboardEmail').html(email);
         }
 
         $('#saveUser').on('click', function() {
@@ -66,12 +76,15 @@
                 let data = response.data;
                 let token = data.token;
                 let userId = data.id;
-
-
-                console.log(userId);
+                let firstname = data.firstname;
+                let lastname = data.lastname;
+                let email = data.email;
 
                 sessionStorage.setItem('UniqueUserToken', JSON.stringify(token));
                 sessionStorage.setItem('UserId', JSON.stringify(userId));
+                sessionStorage.setItem('firstname', JSON.stringify(firstname));
+                sessionStorage.setItem('lastname', JSON.stringify(lastname));
+                sessionStorage.setItem('email', JSON.stringify(email));
                 window.location.href = "{{ url('dashboard') }}";
             });
 
