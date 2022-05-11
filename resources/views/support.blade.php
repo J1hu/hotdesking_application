@@ -50,9 +50,9 @@
                             <div class="card-deck pt-5">
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body shadow bg-white rounded">
-                                        <img src="{{ asset('images/user-guide.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-2 mb-3 bg-white rounded" alt="...">
+                                        <img src="{{ asset('images/user-guide.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-1 mb-3 bg-white rounded" alt="...">
                                         <h5 class="card-title text-center mt-3">User Guide</h5>
-                                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text text-center">Our Hotdesking provide a guide for the user. If you need guide how to use the system just click the view</p>
                                         <div class="text-center">
                                             <a href="{{ url('userguide') }}" class="btn btn-warning col-md-6">View</a>
                                         </div>
@@ -61,9 +61,9 @@
 
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body shadow bg-white rounded">
-                                        <img src="{{ asset('images/faqs.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-2 mb-3 bg-white rounded" alt="...">
+                                        <img src="{{ asset('images/faqs.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-1 mb-3 bg-white rounded" alt="...">
                                         <h5 class="card-title text-center mt-3">FAQs</h5>
-                                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text text-center">Our Hotdesking provide information on frequent questions or concern. If you need answer for your questions, just click the view</p>
                                         <div class="text-center">
                                             <a href="{{ url('faqs') }}" class="btn btn-warning col-md-6">View</a>
                                         </div>
@@ -72,9 +72,9 @@
 
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body shadow bg-white rounded">
-                                        <img src="{{ asset('images/privacy.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-2 mb-3 bg-white rounded" alt="...">
+                                        <img src="{{ asset('images/privacy.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-1 mb-3 bg-white rounded" alt="...">
                                         <h5 class="card-title text-center mt-3">Privacy Disclaimer</h5>
-                                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text text-center">Our Hotdesking provide privacy statement to have a Data Privacy for the user. To know the details just click the view</p>
                                         <div class="text-center">
                                             <a href="{{ url('privacy') }}" class="btn btn-warning col-md-6">View</a>
                                         </div>
