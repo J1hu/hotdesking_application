@@ -36,8 +36,22 @@
                                     <input type="date" class="form-control rounded border border-dark" id="date">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input type="text" class="form-control rounded border border-dark" id="location" placeholder="Location">
+                                    <label for="location">Select desk location:</label>
+                                        <input type="text" class="form-control rounded border border-dark" id="inputText4" list="desks" placeholder="Choose an available desk">
+                                            <datalist id="desks">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                            </datalist>
                                 </div>
                             </div>
                             <div class="d-flex pt-4">
