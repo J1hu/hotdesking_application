@@ -7,7 +7,7 @@
             loadUserBookings();
         }
 
-        if (window.location.href == "http://127.0.0.1:8000/calendar") {
+        if (window.location.href == "http://127.0.0.1:8000/bookings") {
             loadAllBookings();
         }
 
