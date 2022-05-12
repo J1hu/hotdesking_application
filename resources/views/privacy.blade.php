@@ -3,27 +3,15 @@
 
  <title>{{ config('app.name', 'Laravel') }}</title>
 
- <!-- Scripts -->
- <script src="{{ asset('js/app.js') }}" defer></script>
-
- <!-- Fonts -->
- <link rel="dns-prefetch" href="//fonts.gstatic.com">
- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
- <!-- Styles -->
- <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
- <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+ @include('layouts.head')
  </head>
 
  <body style="background-color: #F4EFEB;">
-     <div id="app">
+     <div>
          @include('layouts.simplenav')
          <main>
              <div class="container">
-                 <div class="mask d-flex align-items-center mb-5 py-5">
+                 <div class=" d-flex align-items-center mb-5 py-5">
                      <div class="container">
                          <h1 class="col text-center">Privacy Disclaimer</h1>
                          <br>
@@ -36,17 +24,15 @@
                          <p class="col text-justify">1.Personal information that you voluntarily provide to us. Personal information is information about you that specifically identifies you or, when combined with other information we have, can be used to identify you. It includes such things as name, mailing address, telephone number, email address, date of birth, personal shopping preferences, purchase and ordering history, gender, demographic information, and financial information, such as payment card information.</p>
                          <p class="col text-justify">2.Non-identifying information we collect when you use the Site. Non-identifying information is information that alone cannot identify you and has not been associated with you. It includes such things as data from cookies or data about the device you use to access, use, or interact with our Site.</p>
                          <p class="col text-center">Sample Only</p>
-                         <div class="button" style="width: 10rem; float: right; position:fixed; bottom:25; right:0;">
+                         <div class="button" style="width: 10rem; float: right; position:fixed; bottom:200; right:0;">
                              <a href="#" class="btn btn-success col-md-6">Help</a>
                          </div>
                      </div>
          </main>
      </div>
-
+     @include('layouts.footer')
  </body>
 
- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+ @include('layouts.scripts')
 
  </html>
