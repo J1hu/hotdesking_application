@@ -36,8 +36,22 @@
                                     <input type="date" class="form-control rounded border border-dark" id="date">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input type="text" class="form-control rounded border border-dark" id="location" placeholder="Location">
+                                    <label for="location">Select desk location:</label>
+                                        <input type="text" class="form-control rounded border border-dark" id="inputText4" list="desks" placeholder="Choose an available desk">
+                                            <datalist id="desks">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                            </datalist>
                                 </div>
                             </div>
                             <div class="d-flex pt-4">
@@ -54,7 +68,7 @@
                     <div class="col-lg-6 text-center">
                         <div class="container">
                             <div class="w-150 h-150">
-                                <img src="{{ asset('images/map-90.png') }}" class="my-5" alt="Responsive image">
+                                <img src="{{ asset('images/map.png') }}" class="my-5" alt="Responsive image">
                             </div>
                             <h2 class="font-weight-bold text-center pb-3">DESK LOCATIONS</h2>
                         </div>
