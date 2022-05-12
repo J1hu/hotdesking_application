@@ -1,9 +1,16 @@
- <!-- CSRF Token -->
- <meta name="csrf-token" content="{{ csrf_token() }}">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
- <title>{{ config('app.name', 'Laravel') }}</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
- @include('layouts.head')
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+    
+    @include('layouts.head')
  </head>
 
  <body style="background-color: #F4EFEB;">
@@ -21,13 +28,15 @@
                          <br>
                          <p class="col text-justify"><b>The Information We Collect and Use</b></p>
                          <p class="col text-justify">Information Collection: We may collect some or all of the following information from you when you visit and interact with our Site:</p>
-                         <p class="col text-justify">1.Personal information that you voluntarily provide to us. Personal information is information about you that specifically identifies you or, when combined with other information we have, can be used to identify you. It includes such things as name, mailing address, telephone number, email address, date of birth, personal shopping preferences, purchase and ordering history, gender, demographic information, and financial information, such as payment card information.</p>
-                         <p class="col text-justify">2.Non-identifying information we collect when you use the Site. Non-identifying information is information that alone cannot identify you and has not been associated with you. It includes such things as data from cookies or data about the device you use to access, use, or interact with our Site.</p>
-                         <p class="col text-center">Sample Only</p>
-                         <div class="button" style="width: 10rem; float: right; position:fixed; bottom:200; right:0;">
-                             <a href="#" class="btn btn-success col-md-6">Help</a>
-                         </div>
+                         <p class="col text-justify">1. Personal information that you voluntarily provide to us. Personal information is information about you that specifically identifies you or, when combined with other information we have, can be used to identify you. It includes such things as name, mailing address, telephone number, email address, date of birth, personal shopping preferences, purchase and ordering history, gender, demographic information, and financial information, such as payment card information.</p>
+                         <p class="col text-justify">2. Non-identifying information we collect when you use the Site. Non-identifying information is information that alone cannot identify you and has not been associated with you. It includes such things as data from cookies or data about the device you use to access, use, or interact with our Site.</p>
+                         <!--<p class="col text-center">Sample Only</p>
+                         <div class="button float-right position-absolute" style="width: 10rem; float: right; bottom:200; right:0;">
+                             <a href="#" class="btn btn-success">Help</a>
+                         </div>-->
                      </div>
+                </div>
+            </div>
          </main>
      </div>
      @include('layouts.footer')
