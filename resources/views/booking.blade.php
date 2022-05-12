@@ -54,7 +54,7 @@
                     <div class="col-lg-6 text-center">
                         <div class="container">
                             <div class="w-150 h-150">
-                                <img src="{{ asset('images/map-90.png') }}" class="my-5" alt="Responsive image">
+                                <img src="{{ asset('images/map.png') }}" class="my-5" alt="Responsive image">
                             </div>
                             <h2 class="font-weight-bold text-center pb-3">DESK LOCATIONS</h2>
                         </div>
