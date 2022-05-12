@@ -36,53 +36,97 @@
                 <div class="list-group w-100 mt-2">
                     <a href="#shortExampleAnswer1collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Where is Gamora?</h5>
+                            <h5 class="mb-1">What is E-machine Hot Desking?</h5>
                         </div>
                         <p class="mb-1">
-                            Short & concise version of the answer.
+                            E-machine is a web application that offers booking services.
                         </p>
                         <small data-toggle="collapse" data-target="#shortExampleAnswer1collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
                         <!-- Collapsed content -->
                         <div class="collapse mt-3" id="shortExampleAnswer1collapse">
-                            Detailed and comprehensive answer goes here. pariatur cliche reprehenderit, enim eiusmod
-                            high
-                            life accusamus terry richardson ad
-                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                            sapiente ea proident.
+                        It provides collaborative and innovative office space solutions for people to grow. 
+                        It is commonly defined as flexible, membership-based workspaces where various groups of freelancers, 
+                        remote workers, and other independent professionals collaborate in a shared, community setting.
                         </div>
                     </a>
                     <a href="#shortExampleAnswer2collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Who is Gamora?</h5>
+                            <h5 class="mb-1">Where is the company located?</h5>
                         </div>
                         <p class="mb-1">
-                            Short & concise version of the answer.
+                            E-machine is located in MacArthur Highway, Sampaloc, 2016 Apalit, Philippines.
                         </p>
                         <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer2collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
                         <!-- Collapsed content -->
                         <div class="collapse mt-3" id="shortExampleAnswer2collapse">
-                            Detailed and comprehensive answer goes here. pariatur cliche reprehenderit, enim eiusmod
-                            high
-                            life accusamus terry richardson ad
-                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                            sapiente ea proident.
+                        Due to pandemic protocols, on-site services will be limited. 
+                        Fortunately, we offer online services through our website and customer support team.
                         </div>
                     </a>
                     <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Why is Gamora?</h5>
+                            <h5 class="mb-1">Where to register account?</h5>
                         </div>
                         <p class="mb-1">
-                            Short & concise version of the answer.
+                            The admin will manage the registration.
                         </p>
                         <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer3collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
                         <!-- Collapsed content -->
                         <div class="collapse mt-3" id="shortExampleAnswer3collapse">
-                            Detailed and comprehensive answer goes here. pariatur cliche reprehenderit, enim eiusmod
-                            high
-                            life accusamus terry richardson ad
-                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                            sapiente ea proident.
+                            A verified employee would be given by the admin their email and password through their email which they will
+                            use to login the site. After logging in, the user will now be able to access the dashboard and booking services.
+                        </div>
+                    </a>
+                    <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Is it available in mobile phones?</h5>
+                        </div>
+                        <p class="mb-1">
+                            The E-machine hot desking is currently unavailable to mobile phone users.
+                        </p>
+                        <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer3collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
+                        <!-- Collapsed content -->
+                        <div class="collapse mt-3" id="shortExampleAnswer3collapse">
+                            The E-machine dev team is currently planning to make it available in th future. We will further announce for
+                            any updates in the near future. 
+                        </div>
+                    </a>
+
+                    <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">What happens if a user does not log out of a Hot Desk device and a new user wants to log in?</h5>
+                        </div>
+                        <p class="mb-1">
+                            If more than one user use only one device to access the hot desk, the current user will need to log out.
+                        </p>
+                        <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer3collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
+                        <!-- Collapsed content -->
+                        <div class="collapse mt-3" id="shortExampleAnswer3collapse">
+                            The next user will not be able to access the next user's account unless the previous user log out. However, users can also try 
+                            to login in a different window. 
+                        </div>
+                    </a>
+
+                    <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Where to contact for site issues?</h5>
+                        </div>
+                        <p class="mb-1">
+                            If the user encounters any bugs or issues while using the site, contact us through our designated customer support hotlines.
+                        </p>
+                        <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer3collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
+                        <!-- Collapsed content -->
+                        <div class="collapse mt-3" id="shortExampleAnswer3collapse">
+                        The following are the E-machine hot desk hotlines.
+
+                        Phone: +639077046793
+
+                        Email: e-machine.hotdesk@gmail.com
+
+                        Website: www.e-machine.com
+
+                        User can also interact with our facebook via livechat with our support team. 
+                        https://web.facebook.com/E-Machine-Hot-Desk-102697895774208
                         </div>
                     </a>
                 </div>
