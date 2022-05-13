@@ -17,8 +17,13 @@
                 <a class="nav-link" href="{{ url('support') }}">Get help</a>
             </li>
             <li class="nav-item">
-                <a class="btn btn-outline-warning" role="button" aria-haspopup="true" aria-expanded="false" href="{{ url('login') }}">
+                <a id="loginBtn" class="btn btn-outline-warning" role="button" aria-haspopup="true" aria-expanded="false" href="{{ url('login') }}">
                     Log In
+                </a>
+            </li>
+            <li class="nav-item">
+                <a id="dashboardBtn" class="btn btn-outline-warning d-none" role="button" aria-haspopup="true" aria-expanded="false" href="{{ url('dashboard') }}">
+                    Dashboard
                 </a>
             </li>
         </ul>

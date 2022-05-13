@@ -2,12 +2,15 @@
     $(function() {
         loadNav();
         checkUser();
-        checkLocation();
+        checkAuth();
 
-        function checkLocation() {
-            $(window).on('popstate', function() {
-                location.reload(true);
-            });
+        function checkAuth() {
+            let loggedIn = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
+
+            if (loggedIn) {
+                $('#dashboardBtn').removeClass('d-none');
+                $('#loginBtn').addClass('d-none');
+            }
         }
 
         if (window.location.href == "http://127.0.0.1:8000/dashboard") {
