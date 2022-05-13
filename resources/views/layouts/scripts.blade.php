@@ -103,9 +103,10 @@
                 window.location.href = "{{ url('dashboard') }}";
             });
 
-            request.fail(function(jqXHR, textStatus, errorThrown) {
-                let errorMsg = jqXHR.responseJSON
-                $('#errorMsg').html(errorMsg.error).removeClass('d-none');
+            request.fail(function(xhr, status, error) {
+                let err = eval("(" + xhr.responseText + ")");
+                console.log(err);
+                $('#errorMsg').html(err.error).removeClass('d-none');
             });
         });
 
@@ -137,9 +138,10 @@
                 window.location.href = "{{ url('dashboard') }}";
             });
 
-            request.fail(function(jqXHR, textStatus, errorThrown) {
-                let errorMsg = jqXHR.responseJSON
-                $('#errorMsg').html(errorMsg.error).removeClass('d-none');
+            request.fail(function(xhr, status, error) {
+                let err = eval("(" + xhr.responseText + ")");
+                console.log(err);
+                $('#errorMsg').html(err.error).removeClass('d-none');
             });
         });
 

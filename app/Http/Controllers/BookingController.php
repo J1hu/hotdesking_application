@@ -33,13 +33,18 @@ class BookingController extends Controller
         $date = $request->get('date');
         $location = $request->get('location');
 
-        if (!$title) {
-            return response()->json(['error' => 'Please complete all the fields']);
+        if (!$title && !$description && !$date && !$location) {
+            return response()->json(['error' => 'Please complete all the fields'], 401);
         }
 
-        $bookingModel = Booking::where('title', $title)->first();
+        $bookingModel = Booking::where('location', $location)->first();
         if ($bookingModel) {
-            return response()->json(['error' => 'Booking already exist']);
+            return response()->json(['error' => 'Location already booked'], 401);
+        }
+
+        $bookingModel = Booking::where('date', $date)->first();
+        if ($bookingModel) {
+            return response()->json(['error' => 'Date already booked'], 401);
         }
 
         $newBooking = Booking::create([

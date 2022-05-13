@@ -55,7 +55,11 @@ class UserController extends Controller
 
         $user = User::where('email', $email)->first();
         if (!$user || ($user && !Hash::check($password, $user->password))) {
-            return response()->json(['error' => 'Invalid Credentials'], 400);
+            return response()->json(['error' => 'Invalid Credentials'], 401);
+        }
+
+        if (!$email || !$password) {
+            return response()->json(['error' => 'Complete all required fields'], 401);
         }
 
         $token = sha1($email . time());

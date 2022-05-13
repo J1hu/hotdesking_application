@@ -16,6 +16,10 @@
     <div id="app">
         @include('layouts.homenavbar')
         <main>
+            <div class="alert alert-danger d-none mt-2" id="errorMsg" role="alert">
+                Something went wrong!
+            </div>
+
             <div class="container-fluid">
                 <div class="row">
                     <!--LEFT SIDE -->
@@ -37,21 +41,12 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="location">Select desk location:</label>
-                                        <input type="text" class="form-control rounded border border-dark" id="inputText4" list="desks" placeholder="Choose an available desk">
-                                            <datalist id="desks">
-                                                <option value="A1">
-                                                <option value="A1">
-                                                <option value="A1">
-                                                <option value="A1">
-                                                <option value="A1">
-                                                <option value="A1">
-                                                <option value="A1">
-                                                <option value="B1">
-                                                <option value="B1">
-                                                <option value="B1">
-                                                <option value="B1">
-                                                <option value="B1">
-                                            </datalist>
+                                    <input type="text" class="form-control rounded border border-dark" id="location" list="desks" placeholder="Choose an available desk">
+                                    <datalist id="desks">
+                                        <option value="A1">
+                                        <option value="B1">
+                                        <option value="C1">
+                                    </datalist>
                                 </div>
                             </div>
                             <div class="d-flex pt-4">
