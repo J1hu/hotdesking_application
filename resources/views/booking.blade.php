@@ -41,12 +41,51 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="location">Select desk location:</label>
-                                    <input type="text" class="form-control rounded border border-dark" id="location" list="desks" placeholder="Choose an available desk">
-                                    <datalist id="desks">
-                                        <option value="A1">
-                                        <option value="B1">
-                                        <option value="C1">
-                                    </datalist>
+                                    <select id="location" name="location" class="form-control rounded border border-dark">
+                                        <option selected disabled>Choose an available desk...</option>
+                                        <optgroup label="A desk-area">
+                                            <option>A1</option>
+                                            <option>A2</option>
+                                            <option>A3</option>
+                                            <option>A4</option>
+                                        </optgroup>
+                                        <optgroup label="B desk-area">
+                                            <option>B1</option>
+                                            <option>B2</option>
+                                            <option>B3</option>
+                                            <option>B4</option>
+                                        </optgroup>
+                                        <optgroup label="C desk-area">
+                                            <option>C1</option>
+                                            <option>C2</option>
+                                            <option>C3</option>
+                                            <option>C4</option>
+                                        </optgroup>
+                                        <optgroup label="D desk-area">
+                                            <option>D1</option>
+                                            <option>D2</option>
+                                            <option>D3</option>
+                                            <option>D4</option>
+                                        </optgroup>
+                                        <optgroup label="E desk-area">
+                                            <option>E1</option>
+                                            <option>E2</option>
+                                            <option>E3</option>
+                                            <option>E4</option>
+                                        </optgroup>
+                                        <optgroup label="F desk-area">
+                                            <option>F1</option>
+                                            <option>F2</option>
+                                            <option>F3</option>
+                                            <option>F4</option>
+                                        </optgroup>
+                                        <optgroup label="G desk-area">
+                                            <option>G1</option>
+                                            <option>G2</option>
+                                            <option>G3</option>
+                                            <option>G4</option>
+                                        </optgroup>
+                                    </select>
                                 </div>
                             </div>
                             <div class="d-flex pt-5 mt-5">

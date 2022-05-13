@@ -48,7 +48,7 @@
                                 <p class="opacity-50 text-center"> Get started in using our website through our help center. If you need <br> any help, feel free to contact our support team.</p>
                             </div>
                             <div class="card-deck pt-5">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card mb-4" style="width: 18rem;">
                                     <div class="card-body shadow bg-white rounded">
                                         <img src="{{ asset('images/user-guide.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-1 mb-3 bg-white rounded" alt="...">
                                         <h5 class="card-title text-center mt-3">User Guide</h5>
@@ -59,7 +59,7 @@
                                     </div>
                                 </div>
 
-                                <div class="card" style="width: 18rem;">
+                                <div class="card mb-4" style="width: 18rem;">
                                     <div class="card-body shadow bg-white rounded">
                                         <img src="{{ asset('images/faqs.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-1 mb-3 bg-white rounded" alt="...">
                                         <h5 class="card-title text-center mt-3">FAQs</h5>
@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
 
-                                <div class="card" style="width: 18rem;">
+                                <div class="card mb-4" style="width: 18rem;">
                                     <div class="card-body shadow bg-white rounded">
                                         <img src="{{ asset('images/privacy.png') }}" class="rounded-circle mx-auto d-block mt-n5 shadow p-1 mb-3 bg-white rounded" alt="...">
                                         <h5 class="card-title text-center mt-3">Privacy Disclaimer</h5>

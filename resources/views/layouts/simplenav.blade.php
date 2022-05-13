@@ -9,9 +9,10 @@
     <div class="navbar-collapse collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item mr-4">
-                <a class="nav-link" href="{{ url('/#features') }}">
-                    Features
-                </a>
+                <a class="nav-link" href="{{ url('dashboard') }}">Dashboard</a>
+            </li>
+            <li class="nav-item mr-4">
+                <a class="nav-link" href="{{ url('/#features') }}">Features</a>
             </li>
             <li class="nav-item mr-4">
                 <a class="nav-link" href="{{ url('support') }}">Get help</a>
