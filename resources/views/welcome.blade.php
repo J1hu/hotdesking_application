@@ -14,19 +14,25 @@
 </head>
 
 <body>
-    <div id="app">
+    <!-- <div id="app"> -->
         @include('layouts.navbar')
+        <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div style="font-size: 3rem;">Hello World</div>
+    </div>
+  </div>
+</div>
         <main class="container">
-
-            <div class="m-3" style="background-color:#F4EFEB; border-radius:25px;">
+            <div class="container" style="background-color:#F4EFEB; border-radius:25px;">
                 <div class="row m-4">
-                    <div class="col mt-4">
+                    <div class="col-xl mt-4">
                         <p class="text-left pt-5 mt-5">User Friendly Workspace Scheduling Software</p>
-                        <h1 class="text-left pb-5 display-4"><strong>#GetThingsDone</strong></h1>
+                        <h1 class="text-left pb-5 display-4"><strong>Get Things Done</strong></h1>
                         <p>Hot Desk ensures a worthy service that allows organizations to automate booking tasks hassle free.</p>
                     </div>
-                    <div class="col">
-                        <img src="{{URL('images/workspace.png') }}" width="550" height="450">
+                    <div class="col-xl">
+                        <img class="img-fluid" src="{{URL('images/workspace.png') }}">
                     </div>
                 </div>
             </div>
@@ -41,15 +47,15 @@
             <div class="pt-3 pb-3" style="background-color:#F4EFEB; border-radius:25px;">
                 <h2 class="text-center pb-5 display-4"><strong>Booking Status</strong></h2>
                 <div class="row">
-                    <div class="col text-center">
+                    <div class="col-xl text-center pb-4">
                         <h2>14</h2>
                         <h3><strong>Occupied</strong></h3>
                     </div>
-                    <div class="col text-center display-5">
+                    <div class="col-xl text-center pb-4">
                         <h2>80</h2>
                         <h3><strong>Reserved</strong></h3>
                     </div>
-                    <div class="col text-center display-5">
+                    <div class="col-xl text-center pb-4">
                         <h2>56</h2>
                         <h3><strong>Available</strong></h3>
                     </div>
@@ -58,75 +64,74 @@
 
             <div>
                 <h2 class="text-center pb-5 pt-5 display-4" id="features"><strong>Features</strong></h2>
-                <div>
-                    <div class="container pb-5">
-                        <div class="row">
-                            <div class="col d-flex justify-content-center">
-                                <img src="{{URL('images/booking.png') }}" width="500" height="300">
-                            </div>
-                            <div class="col">
-                                <h3 class="text-center pt-5">Booking</h3>
-                                <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you can now have a collaborative and ideal workplace in the organization.</p>
-                                <li>Effortless reservation and booking depends on your preferred day and time.</li>
-                                <li>Flexible changes into your work calendar.</li>
-                                <li>Easily book and reserve desks with an interactive map.</li>
-                            </div>
+                <div class="container pb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl ">
+                            <img class="img-fluid" src="{{URL('images/booking.png') }}" width="500" height="300">
+                        </div>
+                        <div class="col-xl ">
+                            <h3 class="text-center pt-5">Booking</h3>
+                            <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you can now have a collaborative and ideal workplace in the organization.</p>
+                            <li>Effortless reservation and booking depends on your preferred day and time.</li>
+                            <li>Flexible changes into your work calendar.</li>
+                            <li>Easily book and reserve desks with an interactive map.</li>
                         </div>
                     </div>
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col">
-                                <h3 class="text-center pt-5">Dashboard View</h3>
-                                <p>Provides users with a unique and powerful way visualization to present all bookings made by users—shows actionable and valuable information at a glance in an effective dashboard.</p>
-                                <li>Provide insights of bookings made by all users with a table view.</li>
-                                <li>Allow users to view how many desks are available, occupied and reserved.</li>
-                            </div>
-                            <div class="col pt-5 d-flex justify-content-center">
-                                <img src="{{URL('images/dashboard.png')}} " width="372" height="372">
-                            </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl">
+                            <h3 class="text-center pt-5">Dashboard View</h3>
+                            <p>Provides users with a unique and powerful way visualization to present all bookings made by users—shows actionable and valuable information at a glance in an effective dashboard.</p>
+                            <li>Provide insights of bookings made by all users with a table view.</li>
+                            <li>Allow users to view how many desks are available, occupied and reserved.</li>
+                        </div>
+                        <div class="col-xl pt-5 d-flex justify-content-center">
+                            <img class="img-fluid" src="{{URL('images/dashboard.png')}} " width="372" height="372">
                         </div>
                     </div>
-                    <div class="container pt-5 mt-5">
-                        <div class="row">
-                            <div class="col d-flex justify-content-center pb-5">
-                                <img src="{{URL('images/map.png')}}" width="500" height="300">
-                            </div>
-                            <div class="col">
-                                <h3 class="text-center mb-4 pt-4">Office Map & Desk Locations</h3>
-                                <p>Custom designed maps take the booking experience to the next level. Amaze your users with a complete visual of your space! It allows your users to view availability, occupied and reserved bookings directly from an office map and desk locations. </p>
-                                <li>A full-scale office map with desk location allows users to decide where to book quickly.</li>
-                            </div>
+                </div>
+                <div class="container pt-5 mt-5">
+                    <div class="row">
+                        <div class="col-xl d-flex justify-content-center pb-5">
+                            <img class="img-fluid" src="{{URL('images/map.png')}}" width="500" height="300">
+                        </div>
+                        <div class="col-xl">
+                            <h3 class="text-center mb-4 pt-4">Office Map & Desk Locations</h3>
+                            <p>Custom designed maps take the booking experience to the next level. Amaze your users with a complete visual of your space! It allows your users to view availability, occupied and reserved bookings directly from an office map and desk locations. </p>
+                            <li>A full-scale office map with desk location allows users to decide where to book quickly.</li>
                         </div>
                     </div>
-                    <div class="container pt-5">
-                        <div class="row">
-                            <div class="col ">
-                                <h3 class="text-center mb-4 pt-5">Work Calendar</h3>
-                                <p>Build to operate the organization’s activities with more effective and efficient to boost productivity within the company. </p>
-                                <li>Easily back track all the activities done in the records.</li>
-                                <li>Hassle-free management with simple and easy to use setup.</li>
-                            </div>
-                            <div class="col pt-5 d-flex justify-content-center">
-                                <img src="{{URL('images/calendar.png')}}">
-                            </div>
+                </div>
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-xl">
+                            <h3 class="text-center mb-4 pt-5">Work Calendar</h3>
+                            <p>Build to operate the organization’s activities with more effective and efficient to boost productivity within the company. </p>
+                            <li>Easily back track all the activities done in the records.</li>
+                            <li>Hassle-free management with simple and easy to use setup.</li>
+                        </div>
+                        <div class="col-xl pt-5 d-flex justify-content-center">
+                            <img class="img-fluid" src="{{URL('images/calendar.png')}}">
                         </div>
                     </div>
-                    <div class="container pt-5 pb-5 mt-5">
-                        <div class="row">
-                            <div class="col d-flex justify-content-center">
-                                <img src="{{URL('images/help.png')}}" width="500" height="270">
-                            </div>
-                            <div class="col pb-5">
-                                <h3 class="text-center mb-4 pt-5 d-flex justify-content-center">Help & Support</h3>
-                                <p>Quickly find answers to users' questions and solutions to the problems. Help and Support is designed to resolve many common queries that users experience.</p>
-                                <li>Enables users to get help using user guides, frequently asked questions and a privacy disclaimer.</li>
-                                <li>Make it simple for customers to find the answers they're looking for.</li>
-                            </div>
+                </div>
+                <div class="container pt-5 pb-5 mt-5">
+                    <div class="row">
+                        <div class="col-xl d-flex justify-content-center">
+                            <img class="img-fluid" src="{{URL('images/help.png')}}" width="500" height="270">
+                        </div>
+                        <div class="col-xl pb-5">
+                            <h3 class="text-center mb-4 pt-5 d-flex justify-content-center">Help & Support</h3>
+                            <p>Quickly find answers to users' questions and solutions to the problems. Help and Support is designed to resolve many common queries that users experience.</p>
+                            <li>Enables users to get help using user guides, frequently asked questions and a privacy disclaimer.</li>
+                            <li>Make it simple for customers to find the answers they're looking for.</li>
                         </div>
                     </div>
+                </div>
         </main>
         @include('layouts.footer')
-    </div>
+    <!-- </div> -->
 
 </body>
 
