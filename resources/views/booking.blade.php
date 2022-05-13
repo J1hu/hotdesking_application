@@ -23,8 +23,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <!--LEFT SIDE -->
-                    <div class="col-lg" style="background-color:#F4EFEB">
-                        <h1 class="mb-1 py-5 ml-5  font-weight-bold">Desk Reservation</h1>
+                    <div class="col-lg pb-5" style="background-color:#F4EFEB">
+                        <h1 class="mb-1 py-5 ml-5 mt-3 font-weight-bold">Desk Reservation</h1>
                         <form class="ml-3 pl-5 mr-3 pr-5 mt-5  mb-5 pb-5">
                             <div class="row mb-4">
                                 <div class="form-group col-md-6">
@@ -92,18 +92,18 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <p class="opacity-50 my-auto font-italic mr-4">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p> 
+                                <p class="opacity-50 my-auto font-italic mr-4">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p>
                             </div>
                         </form>
                     </div>
 
                     <!--RIGHT SIDE -->
-                    <div class="col-lg-6 text-center mb-3 pt-4 mt-4 pb-3">
-                        <div class="container">
-                            <div class="w-150 h-150">
-                                <img class="img-fluid"  src="{{ asset('images/map.png') }}" class="my-5" alt="Responsive image">
+                    <div class="col-lg-6 text-center mb-5 pt-5 mt-5 pb-5">
+                        <div class="">
+                            <div class="w-200 h-200">
+                                <img class="img-fluid" src="{{ asset('images/map.png') }}" class="my-5" alt="Responsive image">
                             </div>
-                            <h2 class="font-weight-bold text-center pb-3">DESK LOCATIONS</h2>
+                            <h2 class="font-weight-bold text-center mt-5 pb-3">DESK LOCATIONS</h2>
                         </div>
                     </div>
                 </div>

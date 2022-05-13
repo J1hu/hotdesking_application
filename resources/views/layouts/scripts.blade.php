@@ -2,6 +2,13 @@
     $(function() {
         loadNav();
         checkUser();
+        checkLocation();
+
+        function checkLocation() {
+            $(window).on('popstate', function() {
+                location.reload(true);
+            });
+        }
 
         if (window.location.href == "http://127.0.0.1:8000/dashboard") {
             loadUserBookings();
@@ -43,6 +50,7 @@
 
             $('#dashboardName').html(`${fname} ${lname}`);
             $('#dashboardEmail').html(email);
+            $('#userName').html(`${fname} ${lname}`);
         }
 
         $('#saveUser').on('click', function() {
