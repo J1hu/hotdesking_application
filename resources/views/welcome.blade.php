@@ -16,13 +16,6 @@
 <body>
     <!-- <div id="app"> -->
         @include('layouts.navbar')
-        <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div style="font-size: 3rem;">Hello World</div>
-    </div>
-  </div>
-</div>
         <main class="container">
             <div class="container" style="background-color:#F4EFEB; border-radius:25px;">
                 <div class="row m-4">
