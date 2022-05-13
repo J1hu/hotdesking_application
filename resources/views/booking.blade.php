@@ -25,8 +25,8 @@
                     <!--LEFT SIDE -->
                     <div class="col-lg" style="background-color:#F4EFEB">
                         <h1 class="mb-1 py-5 ml-5 pl-5 display-3 font-weight-bold"> Desk Reservation</h1>
-                        <form class="ml-5 pl-5 mr-5 pr-5 mt-5 pt-5">
-                            <div class="row">
+                        <form class="ml-5 pl-5 mr-5 pr-5 mt-5 pt-5 mb-5 pb-5">
+                            <div class="row mb-5 pb-5">
                                 <div class="form-group col-md-6">
                                     <label for="firstname">Title</label>
                                     <input type="text" class="form-control rounded border border-dark" id="title" placeholder="Title">
@@ -49,7 +49,7 @@
                                     </datalist>
                                 </div>
                             </div>
-                            <div class="d-flex pt-4">
+                            <div class="d-flex pt-5 mt-5">
                                 <p class="opacity-50 my-auto font-italic mr-4">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p>
 
                                 <div class="ml-auto my-auto">
@@ -60,7 +60,7 @@
                     </div>
 
                     <!--RIGHT SIDE -->
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-6 text-center mt-5 pt-5">
                         <div class="container">
                             <div class="w-150 h-150">
                                 <img src="{{ asset('images/map.png') }}" class="my-5" alt="Responsive image">
