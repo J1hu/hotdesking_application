@@ -39,7 +39,12 @@ class BookingController extends Controller
 
         $bookingModel = Booking::where('location', $location)->first();
         if ($bookingModel) {
-            return response()->json(['error' => 'Location already booked'], 401);
+
+            $bookingDateExist = Booking::where('date', $date)->first();
+
+            if ($bookingDateExist) {
+                return response()->json(['error' => 'Booking already exist in this day'], 401);
+            }
         }
 
         $newBooking = Booking::create([

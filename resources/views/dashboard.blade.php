@@ -43,19 +43,6 @@
                         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
                             <div class="card-body" style="color: #EA7101;">
                                 <div class="d-flex justify-content-center">
-                                    <img src="{{URL('images/occupied.png') }}" class="figure-img img-fluid rounded mt-4 ml-3 mb-4" width="66" height="59">
-                                    <div class="col-sm mt-2">
-                                        <h5 class="text-left align-center mt-3">Occupied</h5>
-                                        <h1 class="text-left">-14</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
-                            <div class="card-body" style="color: #EA7101;">
-                                <div class="d-flex justify-content-center">
                                     <img src="{{URL('images/reserved.png') }}" class="figure-img img-fluid rounded mt-4 ml-3 mb-4" width="66" height="59">
                                     <div class="col-sm mt-2">
                                         <h5 class="text-left align-center mt-3">Reserved</h5>
