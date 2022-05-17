@@ -42,10 +42,10 @@
 
                 <ul class="list-unstyled text-white">
                     <li>
-                        Features
+                    <a style= "color : #F4EFEB" href="{{ url('/#features') }}">Features
                     </li>
                     <li>
-                        Tutorials
+                    <a style= "color : #F4EFEB" href="{{ url('userguide#video-tutorial') }}">Tutorials</a>
                     </li>
                 </ul>
 
@@ -60,13 +60,13 @@
 
                 <ul class="list-unstyled text-white">
                     <li>
-                        Support
+                    <a style= "color : #F4EFEB"  href="{{ url('support') }}">Support</a>
                     </li>
                     <li>
-                        Help Center
+                    <a style= "color : #F4EFEB"  href="{{ url('faqs') }}">FAQS</a>
                     </li>
                     <li>
-                        Privacy Disclaimers
+                    <a style= "color : #F4EFEB"  href="{{ url('privacy') }}">Privacy Disclaimers</a>
                     </li>
                 </ul>
 
