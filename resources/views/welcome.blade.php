@@ -16,46 +16,54 @@
 <body>
     <!-- <div id="app"> -->
     @include('layouts.navbar')
-    <main class="container">
-        <div class="container" style="background-color:#F4EFEB; border-radius:25px;">
-            <div class="row m-4">
-                <div class="col-xl mt-4">
-                    <h1 class="text-left mt-5 pt-4 display-4"><strong>Get Things Done</strong></h1>
-                    <p class="text-left pt-5 mt-5">User Friendly Workspace Scheduling Software</p>
-                    <p>Hot Desk ensures a worthy service that allows organizations to automate booking tasks hassle free.</p>
-                </div>
-                <div class="col-xl">
-                    <img class="img-fluid" src="{{URL('images/workspace.png') }}">
-                </div>
-            </div>
-        </div>
-
-        <div class="pt-3">
-            <h2 class="text-center pb-5 display-4"><strong>E-Machine</strong></h2>
-            <div class="text-center pb-5 mb-3">
-                <p>eMachine is an Australian-based technology organization that design, create, and innovate consumer electronics, computer machines, digital devices, and related services for the betterment not just of Australian lives, but of people all around the globe.</p>
-            </div>
-        </div>
-
-        <div class="pt-3 pb-3" style="background-color:#F4EFEB; border-radius:25px;">
-            <h2 class="text-center pb-5 display-4"><strong>Booking Status</strong></h2>
+    <main style="background-color:#F4EFEB;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xl text-center pb-4">
-                    <h2>14</h2>
-                    <h3><strong>Occupied</strong></h3>
+                <div class="col-xl mt-5 ml-5 pl-5">
+                    <h1 class="text-left pt-5 mt-5 display-3 font-weight-bold"><strong>Get Things Done</strong></h1>
+                    <br>
+                    <p class="text-left font-italic">User Friendly Workspace Scheduling Software</p>
+                    <p class="">Hot Desk ensures a worthy service that allows organizations <br> to automate booking tasks hassle free.</p>
                 </div>
-                <div class="col-xl text-center pb-4">
-                    <h2>80</h2>
-                    <h3><strong>Reserved</strong></h3>
+                <div class="col-xl ml-5 pl-5">
+                    <img class="img-fluid" src="{{URL('images/desk.png') }}">
                 </div>
-                <div class="col-xl text-center pb-4">
-                    <h2>56</h2>
-                    <h3><strong>Available</strong></h3>
+            </div>
+        </div>
+         
+        <!-- EMACHINE -->
+        <div class="pt-5 px-4" style="background-color:#FFFF;">
+            <div class="container">
+                <h2 class="text-center pb-5 display-4"><strong>E-Machine</strong></h2>
+                <div class="text-center pb-5">
+                    <p>eMachine is an Australian-based technology organization that design, create, and innovate consumer electronics, computer machines, digital devices, and related services for the betterment not just of Australian lives, but of people all around the globe.</p>
                 </div>
             </div>
         </div>
 
-        <div>
+        <!-- BOOKING STATUS -->
+        <div class="pt-5 px-4 pb-5" style="background-color:#F4EFEB; border-radius:25px;">
+            <div class="container">
+                <h2 class="text-center pb-5 display-4"><strong>Booking Status</strong></h2>
+                <div class="row">
+                    <div class="col-xl text-center pb-4">
+                        <h2>14</h2>
+                        <h3><strong>Occupied</strong></h3>
+                    </div>
+                    <div class="col-xl text-center pb-4">
+                        <h2>80</h2>
+                        <h3><strong>Reserved</strong></h3>
+                    </div>
+                    <div class="col-xl text-center pb-4">
+                        <h2>56</h2>
+                        <h3><strong>Available</strong></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FEATURES -->
+        <div style="background-color:#FFFF;">
             <h2 class="text-center pb-5 pt-5 display-4" id="features"><strong>Features</strong></h2>
             <div class="container pb-5">
                 <div class="row d-flex justify-content-center">
