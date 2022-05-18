@@ -35,7 +35,6 @@
                         </div>
                         <div class="mt-1 ml-3 pl-3 mr-3 pr-3">
                             <a class="btn btn-outline-warning" href="#text-guide" role="button">Step-by-step Guide</a>
-                            <a class="btn btn-outline-warning active" href="#video-tutorial" role="button">Video Tutorial</a>
                         </div>
                     </div>
 
@@ -47,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Second section -->
                 <div class="m-3" style="background-color:#F4EFEB; border-radius:25px;" id="text-guide">
                     <div class="row m-4">
@@ -56,16 +55,16 @@
                         </div>
                         <div class="col mt-4">
                             <h1 class="text-left mt-5 text-warning font-weight-bold">Hot Desk</>
-                            <h1 class="text-left pb-5 font-weight-bold"><strong>Step-by-Step Guide</strong></h1>
-                            <p>Start using the Hot Desk and never forget to set your schedules. Don't know how to use the site? <br>Worry no more! Here is our step-by-step guide for you
-                                to follow and get started right away. </p>
+                                <h1 class="text-left pb-5 font-weight-bold"><strong>Step-by-Step Guide</strong></h1>
+                                <p>Start using the Hot Desk and never forget to set your schedules. Don't know how to use the site? <br>Worry no more! Here is our step-by-step guide for you
+                                    to follow and get started right away. </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Third section -->
             <div class="container">
-               
+
                 <!--account set up guide-->
                 <div class="pt-3">
                     <h2 class="text-left pb-5 text-warning"><strong>Setting up your account</strong></h2>

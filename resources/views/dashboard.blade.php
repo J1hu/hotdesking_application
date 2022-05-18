@@ -31,7 +31,7 @@
                             <th scope="col">Description</th>
                             <th scope="col">Date</th>
                             <th scope="col">Location</th>
-                            <th><button></button></th>
+                            <th scope="col">Cancellation</th>
                         </tr>
                     </thead>
                     <tbody id="userBookingList"></tbody>

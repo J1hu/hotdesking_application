@@ -180,6 +180,9 @@
                             <td>${booking.description}</td>
                             <td>${booking.date}</td>
                             <td>${booking.location}</td>
+                            <td>
+                                <button type="button" class="btn btn-danger">Cancel</button>
+                            </td>
                         </tr>
                     `);
                 })
