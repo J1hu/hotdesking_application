@@ -25,11 +25,11 @@
 
 </head>
 
-<body>
+<body style="background-color:#F4EFEB">
     <div id="app">
         @include('layouts.simplenav')
         <main class="mb-5 py-5">
-            <div class="container">
+            <div class="container" >
                 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
                     <h1 class="display-4">Frequently Asked Questions</h1>
                 </div>

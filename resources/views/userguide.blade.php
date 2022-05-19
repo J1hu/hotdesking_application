@@ -51,7 +51,7 @@
                 <div class="m-3" style="background-color:#F4EFEB; border-radius:25px;" id="text-guide">
                     <div class="row m-4">
                         <div class=".col-6 .col-sm-3">
-                            <img src="{{URL('images/workspace.png') }}" width="550" height="450" class="img-fluid">
+                            <img src="{{URL('images/desk.png') }}" width="550" height="450" class="img-fluid">
                         </div>
                         <div class="col mt-4">
                             <h1 class="text-left mt-5 text-warning font-weight-bold">Hot Desk</>

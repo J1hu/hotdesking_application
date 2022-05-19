@@ -20,10 +20,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl mt-5 ml-5 pl-5">
-                    <h1 class="text-left pt-5 mt-5 display-3 font-weight-bold"><strong>Get Things Done</strong></h1>
+                    <h1 class="text-center pt-5 mt-5 display-3 font-weight-bold"><strong>Get Things Done</strong></h1>
                     <br>
-                    <p class="text-left font-italic">User Friendly Workspace Scheduling Software</p>
-                    <p class="">Hot Desk ensures a worthy service that allows organizations <br> to automate booking tasks hassle free.</p>
+                    <p class="text-center font-italic">User Friendly Workspace Scheduling Software</p>
+                    <p class="text-center">Hot Desk ensures a worthy service that allows organizations <br> to automate booking tasks hassle free.</p>
                 </div>
                 <div class="col-xl ml-5 pl-5">
                     <img class="img-fluid" src="{{URL('images/desk.png') }}">
