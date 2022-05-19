@@ -3,7 +3,6 @@
         loadNav();
         checkUser();
         checkAuth();
-        loadCalendar();
 
         function checkAuth() {
             let loggedIn = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
@@ -16,10 +15,12 @@
 
         if (window.location.href == "http://127.0.0.1:8000/dashboard") {
             loadUserBookings();
+            loadCalendar();
         }
 
         if (window.location.href == "http://127.0.0.1:8000/bookings") {
             loadAllBookings();
+            loadCalendar();
         }
 
         if (window.location.href == "http://127.0.0.1:8000/login") {
@@ -182,11 +183,15 @@
                             <td>${booking.date}</td>
                             <td>${booking.location}</td>
                             <td>
-                                <button type="button" class="btn btn-danger">Cancel</button>
+                                <button class="btn btn-danger delete" data-id="${booking.id}">
+                                    Cancel
+                                </button>
                             </td>
                         </tr>
                     `);
-                })
+                });
+
+                initializeButtonEvents();
             });
         }
 
@@ -197,7 +202,7 @@
 
             let request = $.ajax({
                 url: "/api/bookings",
-                method: "GET",
+                method: "POST",
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -281,5 +286,33 @@
                 console.log(errorMsg);
             });
         });
+
+        function initializeButtonEvents() {
+            $('.delete').on('click', function() {
+                let id = $(this).data('id');
+                let token = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
+
+                if (confirm("Are you sure you want to cancel this booking?") == true) {
+                    let request = $.ajax({
+                        url: `api/booking/${id}`,
+                        method: "DELETE",
+                        headers: {
+                            'Authorization': `Bearer ${token}`
+                        }
+                    });
+
+                    request.done(function(response, textStatus, jqXHR) {
+                        let data = response.data;
+                        location.reload();
+                    });
+
+                    request.fail(function(xhr, status, error) {
+                        let err = eval("(" + xhr.responseText + ")");
+                        console.log(err);
+                        $('#errorMsg').html(err.error).removeClass('d-none');
+                    });
+                }
+            });
+        }
     });
 </script>
