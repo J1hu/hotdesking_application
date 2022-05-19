@@ -3,6 +3,7 @@
         loadNav();
         checkUser();
         checkAuth();
+        loadCalendar();
 
         function checkAuth() {
             let loggedIn = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
@@ -204,7 +205,6 @@
 
             request.done(function(response, textStatus, jqXHR) {
                 let data = response.data;
-                console.log(data);
                 data.map(booking => {
                     $('#bookingList').append(`
                         <tr>
@@ -216,6 +216,46 @@
                     `);
                 })
             });
+        }
+
+        function loadCalendar() {
+            let token = JSON.parse(sessionStorage.getItem('UniqueUserToken'));
+
+            let request = $.ajax({
+                url: "/api/bookings",
+                method: "GET",
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            });
+
+            request.done(function(response, textStatus, jqXHR) {
+                let data = response.data;
+
+                console.log(data);
+
+                let calendar = $('#calendar').fullCalendar({
+                    header: {
+                        left: 'today',
+                        center: 'title',
+                        right: 'prev,next'
+                    },
+                    eventSources: [{
+                        events: $.map(data, function(booking) {
+                            return {
+                                title: `Title: ${booking.title}
+                                        Desk: ${booking.location}`,
+                                start: booking.date,
+                            }
+                        }),
+                        color: 'grey', // an option!
+                        textColor: 'white' // an option!
+                    }],
+                    selectable: true
+                });
+            });
+
+
         }
 
         $('#logout').on('click', function() {
