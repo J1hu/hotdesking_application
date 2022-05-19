@@ -253,7 +253,7 @@
                                 start: booking.date,
                             }
                         }),
-                        color: 'grey', // an option!
+                        color: '#212529', // an option!
                         textColor: 'white' // an option!
                     }],
                     selectable: true
