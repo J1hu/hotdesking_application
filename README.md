@@ -14,7 +14,6 @@
 > On the terminal, enter `php artisan migrate` to migrate the tables to the database
 - Step 6
 > After the migration, you can now enter the `php artisan serve` to start your project on localhost
-- Step 7
 >> NOTE: If there is a problem on generating the key after serving to localhost, just click the `generate key` to fix this.
 - Step 8
 > You can now use the application.
