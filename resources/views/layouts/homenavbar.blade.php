@@ -29,7 +29,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right col-md" aria-labelledby="navbarDropdownMenuLink">
                     <div class="container pt-2">
-                        <div class="row mb-3 mx-auto text-center justify-content-center">
+                        <div class="col mb-3 mx-auto text-center justify-content-center">
                             <img src="{{ asset('images/default-avatar.png') }}" alt="..." class="rounded-circle mb-2 border border-secondary" width="100" height="100">
                             <p class="text-center mt-2 mb-1">
                                 <span class="pr-1" id="dashboardName"></span>
