@@ -202,7 +202,7 @@
 
             let request = $.ajax({
                 url: "/api/bookings",
-                method: "POST",
+                method: "GET",
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
