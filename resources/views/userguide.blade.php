@@ -79,7 +79,7 @@
                         <p>Upon clicking the link, you will be redirected to the login page of the where you will enter the email and password provided in your email.</p>
                         <img src="{{URL('images/login.png') }}" width="750" height="350" class="img-fluid">
                     </div>
-                    
+
                 </div>
                 <!--Book a desk guide-->
                 <div class="pt-3">
@@ -199,8 +199,25 @@
                     <div class="tab-pane fade" id="pills-dashboard" role="tabpanel" aria-labelledby="pills-dashboard-tab">...</div>
                     <div class="tab-pane fade" id="pills-reserve" role="tabpanel" aria-labelledby="pills-reserve-tab">...</div>
                     <div class="tab-pane fade" id="pills-book" role="tabpanel" aria-labelledby="pills-book-tab">...</div>
-                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">...</div>
+                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">
+                    </div>
                     <div class="tab-pane fade" id="pills-guide" role="tabpanel" aria-labelledby="pills-guide-tab">...</div>
+                    <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>Support Page</strong></h2>
+                            <div class="text-left pb-5 mb-3">
+                            <p>The Support page includes a User guide, FAQs, and Privacy Disclaimer</p>
+                            <img src="{{URL('images/help.png') }}" width="750" height="350" class="img-fluid"><br></br>
+                            <li>To navigate to the user guide page you can just click the view button under the user guide card and you will redirect to that page.</strong> that you will see in the navigation menu.
+                            </li>
+                            <img src="{{URL('images/userguide.png') }}" width="430" height="30" class="img-fluid"><br></br>
+                            <li>To navigate to the Frequently asked questions you can just also click the view button under the faqs card and you will redirect to that page.
+                            </li> 
+                            <img src="{{URL('images/faq.png') }}" width="430" height="30" class="img-fluid"><br></br>
+                            <li>To navigate to the Privacy Disclaimer view you can just also click the view button under the privacy disclaimer card and you will redirect to that page.
+                            </li>
+                            <img src="{{URL('images/privacydisclaimer.png') }}" width="430" height="30" class="img-fluid"><br></br>
+                            </div>
+                        </div>
 
                     <!--faqs-->
                     <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
