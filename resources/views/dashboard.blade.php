@@ -17,7 +17,7 @@
             Something went wrong!
         </div>
 
-        <div>
+        <div class="container-fluid">
             <div class="row mt-2">
                 <div class="col ml-3 pl-5">
                     <h1 class="text-left display-4"><strong>Dashboard</strong></h2>
