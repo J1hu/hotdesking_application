@@ -200,7 +200,20 @@
                     <div class="tab-pane fade" id="pills-reserve" role="tabpanel" aria-labelledby="pills-reserve-tab">...</div>
                     <div class="tab-pane fade" id="pills-book" role="tabpanel" aria-labelledby="pills-book-tab">...</div>
                     <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">...</div>
-                    <div class="tab-pane fade" id="pills-guide" role="tabpanel" aria-labelledby="pills-guide-tab">...</div>
+
+
+                    <div class="tab-pane fade" id="pills-guide" role="tabpanel" aria-labelledby="pills-guide-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>User Guide</strong></h2>
+                            <div class="text-left pb-5 mb-3">
+                                <h5 class="font-weight-bold mb-5">Navigate to the FAQs Page</h5>
+                                <p>• To view the FAQs page, you need to navigate first to the Get Help that you can see in the navigation menu.</p>
+                                <p>• After navigating to Get Help. you will be redirected to the Support page which includes a user guide, FAQs, and Privacy Disclaimer.</p>
+                                <p>• Click the view button under the FAQs card and you will redirect to the Frequently asked questions page.</p>
+                                <img src="{{URL('images/faqs-page.png') }}" width="750" height="350" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
 
                     <!--faqs-->
                     <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
