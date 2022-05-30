@@ -80,9 +80,10 @@
                         <img src="{{URL('images/login.png') }}" width="750" height="350" class="img-fluid">
                     </div>
                     <div class="text-left pb-5 mb-3">
-                        <h5 class="font-weight-bold">Step 3. Explore pages</h5>
-                        <p>After login, you will be redirected to dashboard. After that, you can now use and explore.</p>
-                        <img src="{{URL('images/dashboard.png') }}" width="750" height="400" class="img-fluid">
+                        <h5 class="font-weight-bold">Privacy Disclaimer page</h5>
+                        <p>	The Privacy  Disclaimer page states how the company or website collects, handles, and processes the data of its users. This page explains what personal information they collect from you when you use the website, how they use your information, and the choices you have regarding their use of your information.</p>
+                        <img src="{{URL('images/privacy-disclaimer.png') }}" width="750" height="400" class="img-fluid">
+                        <p>	<strong>Note:</strong> To view the Privacy Disclaimer page, you need to navigate first to the <strong>Get Help</strong> that you can see in the navigation menu, or for a shortcut, you can click the link in the footer of the website.</p>
                     </div>
                 </div>
                 <!--Book a desk guide-->
