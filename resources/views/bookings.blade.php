@@ -11,7 +11,7 @@
 
 <body>
     @include('layouts.homenavbar')
-    <div class="row mt-2">
+    <div class="container-fluid row mt-2">
         <div class="col-lg">
             <div class="container ml-3 pl-5">
                 <h1 class="text-left display-4"><b>All Bookings</b></h2>

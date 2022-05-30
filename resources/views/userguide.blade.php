@@ -79,12 +79,7 @@
                         <p>Upon clicking the link, you will be redirected to the login page of the where you will enter the email and password provided in your email.</p>
                         <img src="{{URL('images/login.png') }}" width="750" height="350" class="img-fluid">
                     </div>
-                    <div class="text-left pb-5 mb-3">
-                        <h5 class="font-weight-bold">Privacy Disclaimer page</h5>
-                        <p>	The Privacy  Disclaimer page states how the company or website collects, handles, and processes the data of its users. This page explains what personal information they collect from you when you use the website, how they use your information, and the choices you have regarding their use of your information.</p>
-                        <img src="{{URL('images/privacy-disclaimer.png') }}" width="750" height="400" class="img-fluid">
-                        <p>	<strong>Note:</strong> To view the Privacy Disclaimer page, you need to navigate first to the <strong>Get Help</strong> that you can see in the navigation menu, or for a shortcut, you can click the link in the footer of the website.</p>
-                    </div>
+                    
                 </div>
                 <!--Book a desk guide-->
                 <div class="pt-3">
@@ -92,13 +87,13 @@
                     <div class="text-left pb-5 mb-3">
                         <h5><strong>Step 1. Go to the booking page</strong> ( navbar book a desk > reservation )</h5>
                         <p>Before reserving or booking a desk make sure that you are already logged in. After logging in, you will redirect to the dashboard page.
-                        <li>On the dashboard page navigate to the <strong>Book a Desk → Reservation</strong> that you will see in the navigation menu.
-                        </li><br>
-                        <img src="{{URL('images/reservation.png') }}" width="750" height="350" class="img-fluid">
+                            <li>On the dashboard page navigate to the <strong>Book a Desk → Reservation</strong> that you will see in the navigation menu.
+                            </li><br>
+                            <img src="{{URL('images/reservation.png') }}" width="750" height="350" class="img-fluid">
                     </div>
                     <div class="text-left pb-5 mb-3">
                         <h5><strong>Step 2. Fill up the form</strong> ( type in a title for reservation, type in a description, select date, select location )</h5>
-                        <p>After navigating to the Book a Desk you will now see the Booking page wherein in this page you can create a reservation of available desks. 
+                        <p>After navigating to the Book a Desk you will now see the Booking page wherein in this page you can create a reservation of available desks.
                         <ul>
                             <li>In booking a desk, first is to fill up the <strong>title</strong> and <strong>description</strong> of your booking
                             </li>
@@ -127,27 +122,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Video Tutorial -->
-                <div class="container pb-5">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" width="860" height="484" src="https://www.youtube.com/embed/Ve4tF4Y_Fc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <br>
-                    <br>
-                </div>
-
-                <div class="container">
-                    <div class="card mb-3">
-                        <div class="card-header font-weight-bold">
-                            User Feedback
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Thank you for your support.</h5>
-                            <p class="card-text">Was this article helpful? Submit your feedback about the site for future improvements and fixes.</p>
-                            <a class="btn btn-outline-warning active" href="https://tinyurl.com/2p82zkcc" role="button" target="_blank">Submit Feedback</a>
-                        </div>
-                    </div>
-                </div>
                 <!--manage bookings guide-->
                 <div class="pt-3">
                     <h2 class="text-left pb-3 text-warning"><strong>Manage Bookings</strong></h2>
@@ -169,10 +143,24 @@
 
                         <p>Simply click <strong>Get Help</strong> at the top-right corner of the navigation bar and you will be taken to the support page for help.</p>
                         <img src="{{URL('images/nav-get-help.jpg') }}" width="750" height="350" class="img-fluid">
-                        
+
                         <p class="pt-4 mt-3">Or simply click the Support link at the right section of the footer at the bottom of the page and you will reach the same page for assistance and guides.</p>
                         <img src="{{URL('images/footer-support.jpg') }}" width="750" height="350" class="img-fluid">
-                        
+
+                    </div>
+                </div>
+
+                <!-- feedback -->
+                <div class="container">
+                    <div class="card mb-3">
+                        <div class="card-header font-weight-bold">
+                            User Feedback
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Thank you for your support.</h5>
+                            <p class="card-text">Was this article helpful? Submit your feedback about the site for future improvements and fixes.</p>
+                            <a class="btn btn-outline-warning active" href="https://tinyurl.com/2p82zkcc" role="button" target="_blank">Submit Feedback</a>
+                        </div>
                     </div>
                 </div>
 
