@@ -34,7 +34,7 @@
                     <h1 class="display-4">Frequently Asked Questions</h1>
                 </div>
                 <div class="list-group w-100 mt-2">
-                    <a href="#shortExampleAnswer1collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">What is E-machine Hot Desking?</h5>
                         </div>
@@ -49,7 +49,7 @@
                             remote workers, and other independent professionals collaborate in a shared, community setting.
                         </div>
                     </a>
-                    <a href="#shortExampleAnswer2collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Where is the company located?</h5>
                         </div>
@@ -63,7 +63,7 @@
                             Fortunately, we offer online services through our website and customer support team.
                         </div>
                     </a>
-                    <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Where to register account?</h5>
                         </div>
@@ -77,7 +77,7 @@
                             use to login the site. After logging in, the user will now be able to access the dashboard and booking services.
                         </div>
                     </a>
-                    <a href="#shortExampleAnswer4collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Is it available in mobile phones?</h5>
                         </div>
@@ -92,7 +92,7 @@
                         </div>
                     </a>
 
-                    <a href="#shortExampleAnswer5collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">What happens if a user does not log out of a Hot Desk device and a new user wants to log in?</h5>
                         </div>
@@ -107,7 +107,7 @@
                         </div>
                     </a>
 
-                    <a href="#shortExampleAnswer6collapse" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Where to contact for site issues?</h5>
                         </div>
