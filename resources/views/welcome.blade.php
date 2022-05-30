@@ -23,7 +23,7 @@
                     <h1 class="text-center pt-5 mt-5 display-3 font-weight-bold"><strong>Get Things Done</strong></h1>
                     <br>
                     <p class="text-center font-italic">User Friendly Workspace Scheduling Software</p>
-                    <p class="text-center">Hot Desk ensures a worthy service that allows organizations <br> to automate booking tasks hassle free.</p>
+                    <p class="text-center"><strong>ホットデスク</strong> (Hotto Desuku) ensures a worthy service that allows organizations <br> to automate booking tasks hassle free.</p>
                 </div>
                 <div class="col-xl ml-5 pl-5">
                     <img class="img-fluid" src="{{URL('images/desk.png') }}">
@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <!-- BOOKING STATUS -->
+        <!-- BOOKING STATUS --><!--
         <div class="pt-5 px-4 pb-5" style="background-color:#F4EFEB; border-radius:25px;">
             <div class="container">
                 <h2 class="text-center pb-5 display-4"><strong>Booking Status</strong></h2>
@@ -60,15 +60,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- FEATURES -->
-        <div style="background-color:#FFFF;">
+        <div class="pb-3" style="background-color:#F4EFEB;">
             <h2 class="text-center pb-5 pt-5 display-4" id="features"><strong>Features</strong></h2>
             <div class="container pb-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col-xl ">
-                        <img class="img-fluid" src="{{URL('images/booking.png') }}" width="500" height="300">
+                        <img class="img-fluid" src="{{URL('images/booking.png') }}" width="500">
                     </div>
                     <div class="col-xl ">
                         <h3 class="text-center pt-5">Booking</h3>
@@ -88,14 +88,14 @@
                         <li>Allow users to view how many desks are available, occupied and reserved.</li>
                     </div>
                     <div class="col-xl pt-5 d-flex justify-content-center">
-                        <img class="img-fluid" src="{{URL('images/dashboard.png')}} " width="372" height="372">
+                        <img class="img-fluid" src="{{URL('images/dashboard.png')}} " width="500">
                     </div>
                 </div>
             </div>
             <div class="container pt-5 mt-5">
                 <div class="row">
                     <div class="col-xl d-flex justify-content-center pb-5">
-                        <img class="img-fluid" src="{{URL('images/map.png')}}" width="500" height="300">
+                        <img class="img-fluid" src="{{URL('images/map.png')}}" width="500">
                     </div>
                     <div class="col-xl">
                         <h3 class="text-center mb-4 pt-4">Office Map & Desk Locations</h3>
@@ -113,14 +113,14 @@
                         <li>Hassle-free management with simple and easy to use setup.</li>
                     </div>
                     <div class="col-xl pt-5 d-flex justify-content-center">
-                        <img class="img-fluid" src="{{URL('images/calendar.png')}}">
+                        <img class="img-fluid" src="{{URL('images/calendar.png')}}" width="500">
                     </div>
                 </div>
             </div>
             <div class="container pt-5 pb-5 mt-5">
                 <div class="row">
                     <div class="col-xl d-flex justify-content-center">
-                        <img class="img-fluid" src="{{URL('images/help.png')}}" width="500" height="270">
+                        <img class="img-fluid" src="{{URL('images/help.png')}}" width="500">
                     </div>
                     <div class="col-xl pb-5">
                         <h3 class="text-center mb-4 pt-5 d-flex justify-content-center">Help & Support</h3>
