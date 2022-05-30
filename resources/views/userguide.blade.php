@@ -79,7 +79,7 @@
                         <p>Upon clicking the link, you will be redirected to the login page of the where you will enter the email and password provided in your email.</p>
                         <img src="{{URL('images/login.png') }}" width="750" height="350" class="img-fluid">
                     </div>
-                    
+
                 </div>
                 <!--Book a desk guide-->
                 <div class="pt-3">
