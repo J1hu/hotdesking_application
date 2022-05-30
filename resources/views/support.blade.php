@@ -34,7 +34,7 @@
                     <div class="container">
                         <h1 class="col text-center">Help Center</h1>
                         <div class="row d-flex justify-content-center">
-                            <div class="mt-3"> <br>
+                            <div class="mt-3 mb-5"> <br>
                                 <p class="opacity-50 text-center"> Get started in using our website through our help center. If you need <br> any help, feel free to contact our support team.</p>
                             </div>
                             <div class="card-deck pt-5">
