@@ -147,6 +147,34 @@
                         </div>
                     </div>
                 </div>
+                <!--manage bookings guide-->
+                <div class="pt-3">
+                    <h2 class="text-left pb-3 text-warning"><strong>Manage Bookings</strong></h2>
+                    <div class="text-left pb-5 mb-3">
+                        <h5 class="font-weight-bold mb-5">Cancel reservation</h5>
+
+                        <p><strong>Step 1.</strong> Situated at the last column of the bookings table in the dashboard, a delete button is available for the user to click in cases that they want to cancel their reservation. Just find the row of the specific reservation that you want to cancel, then simply click the cancel button.</p>
+                        <img src="{{URL('images/cancel-bookings-table.jpg') }}" width="750" height="350" class="img-fluid">
+
+                        <p class="pt-4 mt-3"><strong>Step 2.</strong> Click Ok once you are really sure you want to cancel the reservation.</p>
+                        <img src="{{URL('images/cancel-confirm.jpg') }}" width="750" height="350" class="img-fluid">
+                    </div>
+                </div>
+                <!--ask for help guide-->
+                <div class="pt-3">
+                    <h2 class="text-left pb-3 text-warning"><strong>Ask for Help</strong></h2>
+                    <div class="text-left pb-5 mb-3">
+                        <h5 class="font-weight-bold mb-5">Navigate to Get Help</h5>
+
+                        <p>Simply click <strong>Get Help</strong> at the top-right corner of the navigation bar and you will be taken to the support page for help.</p>
+                        <img src="{{URL('images/nav-get-help.jpg') }}" width="750" height="350" class="img-fluid">
+                        
+                        <p class="pt-4 mt-3">Or simply click the Support link at the right section of the footer at the bottom of the page and you will reach the same page for assistance and guides.</p>
+                        <img src="{{URL('images/footer-support.jpg') }}" width="750" height="350" class="img-fluid">
+                        
+                    </div>
+                </div>
+
             </div>
         </main>
         @include('layouts.footer')

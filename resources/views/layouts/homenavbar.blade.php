@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-sm sticky-top navbar-dark" style="background-color: #27231E;">
     <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('images/hot-desk-icon.png') }}" width="30" height="30" alt="">
-        Hot Desk
+        <strong>ホットデスク</strong>
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

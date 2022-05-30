@@ -10,8 +10,8 @@
             <div class="col-md-3 mt-2 ">
 
                 <!-- Content1 -->
-                <h5 class="text-uppercase mt-5 text-white "><b>ホットデスク Hot Desk</b></h5>
-                <p class="text-white">Hot Desk: A user Friendly <br>
+                <h5 class="text-uppercase mt-5 text-white "><b>ホットデスク</b></h5>
+                <p class="text-white">Hotto Desuku: A user Friendly <br>
                     Workspace Scheduling<br>
                     Software.</p>
 
