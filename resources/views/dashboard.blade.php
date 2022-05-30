@@ -12,7 +12,7 @@
 
 <body>
     @include('layouts.homenavbar')
-    <div>
+    <div class="pb-4">
         <div class="alert alert-danger d-none mt-2" id="errorMsg" role="alert">
             Something went wrong!
         </div>
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="container pb-5 pt-5">
+        <!--<div class="container pb-5 pt-5">
             <div class="row">
                 <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
                     <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
@@ -78,9 +78,10 @@
                     </div>
                 </div>
             </div>
-            @include('layouts.scripts')
-        </div>
+        </div>-->
     </div>
+    @include('layouts.footer')
+    @include('layouts.scripts')
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
