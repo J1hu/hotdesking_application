@@ -52,6 +52,6 @@ Route::get('/bookings', function () {
     return view('bookings');
 });
 
-Route::get('/alkhsjdlkshdfkjhadseurhgodjfnhvkjojeoirhgoeifhjgodjhfgiouerhjnfk', function () {
+Route::get('/register', function () {
     return view('register');
 });

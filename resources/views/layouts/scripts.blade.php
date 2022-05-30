@@ -18,6 +18,10 @@
             loadCalendar();
         }
 
+        if (window.location.href == "http://127.0.0.1:8000/register") {
+            checkAdmin();
+        }
+
         if (window.location.href == "http://127.0.0.1:8000/bookings") {
             loadAllBookings();
             loadCalendar();
@@ -45,6 +49,14 @@
                 } else if (window.location.href == "http://127.0.0.1:8000/booking") {
                     window.location.href = "{{ url('login') }}";
                 }
+            }
+        }
+
+        function checkAdmin() {
+            let email = JSON.parse(sessionStorage.getItem('email'));
+            let check = email.includes("admin.com");
+            if (!check) {
+                window.location.href = "{{ url('/') }}";
             }
         }
 
