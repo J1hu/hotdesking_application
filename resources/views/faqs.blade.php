@@ -49,20 +49,20 @@
                             remote workers, and other independent professionals collaborate in a shared, community setting.
                         </div>
                     </a>
-                    <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                    <!--<a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Where is the company located?</h5>
                         </div>
                         <p class="mb-1">
                             E-machine is located in MacArthur Highway, Sampaloc, 2016 Apalit, Philippines.
                         </p>
-                        <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer2collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>
+                        <small class="text-muted" data-toggle="collapse" data-target="#shortExampleAnswer2collapse" aria-expanded="true" aria-controls="collapseOne"><u>Learn more</u></small>-->
                         <!-- Collapsed content -->
-                        <div class="collapse mt-3" id="shortExampleAnswer2collapse">
+                        <!--<div class="collapse mt-3" id="shortExampleAnswer2collapse">
                             Due to pandemic protocols, on-site services will be limited.
                             Fortunately, we offer online services through our website and customer support team.
                         </div>
-                    </a>
+                    </a>-->
                     <a href="javascript:void(0);" data-mdb-toggle="collapse" aria-expanded="false" aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">Where to register account?</h5>

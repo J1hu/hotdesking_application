@@ -176,6 +176,72 @@
                     </div>
                 </div>
 
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="false">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-dashboard-tab" data-toggle="pill" href="#pills-dashboard" role="tab" aria-controls="pills-dashboard" aria-selected="false">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-reserve-tab" data-toggle="pill" href="#pills-reserve" role="tab" aria-controls="pills-reserve" aria-selected="false">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-book-tab" data-toggle="pill" href="#pills-book" role="tab" aria-controls="pills-book" aria-selected="false">Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-support-tab" data-toggle="pill" href="#pills-support" role="tab" aria-controls="pills-support" aria-selected="false">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-guide-tab" data-toggle="pill" href="#pills-guide" role="tab" aria-controls="pills-guide" aria-selected="false">User Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-faqs-tab" data-toggle="pill" href="#pills-faqs" role="tab" aria-controls="pills-faqs" aria-selected="false">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-disclaimer-tab" data-toggle="pill" href="#pills-disclaimer" role="tab" aria-controls="pills-disclaimer" aria-selected="false">Privacy Disclaimer</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+                    <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">...</div>
+                    <div class="tab-pane fade" id="pills-dashboard" role="tabpanel" aria-labelledby="pills-dashboard-tab">...</div>
+                    <div class="tab-pane fade" id="pills-reserve" role="tabpanel" aria-labelledby="pills-reserve-tab">...</div>
+                    <div class="tab-pane fade" id="pills-book" role="tabpanel" aria-labelledby="pills-book-tab">...</div>
+                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">...</div>
+                    <div class="tab-pane fade" id="pills-guide" role="tabpanel" aria-labelledby="pills-guide-tab">...</div>
+
+                    <!--faqs-->
+                    <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>Frequently Asked Questions</strong></h2>
+                            <div class="text-left pb-5 mb-3">
+                                <h5 class="font-weight-bold mb-5">Navigate to the FAQs Page</h5>
+                                <p>• To view the FAQs page, you need to navigate first to the Get Help that you can see in the navigation menu.</p>
+                                <p>• After navigating to Get Help. you will be redirected to the Support page which includes a user guide, FAQs, and Privacy Disclaimer.</p>
+                                <p>• Click the view button under the FAQs card and you will redirect to the Frequently asked questions page.</p>
+                                <img src="{{URL('images/faqs-page.png') }}" width="750" height="350" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--disclaimer-->
+                    <div class="tab-pane fade" id="pills-disclaimer" role="tabpanel" aria-labelledby="pills-disclaimer-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>Privacy Disclaimer</strong></h2>
+                            <div class="text-left pb-5 mb-3">
+                                <p>The Privacy  Disclaimer page states how the company or website collects, handles, and processes the data of its users. This page explains what personal information they collect from you when you use the website, how they use your information, and the choices you have regarding their use of your information.</p>
+                                <img src="{{URL('images/privacy-disclaimer.png') }}" width="750" height="350" class="img-fluid">
+
+                                <p class="pt-4 mt-3"><strong>Note:</strong> To view the Privacy Disclaimer page, you need to navigate first to the Get Help that you can see in the navigation menu, or for a shortcut, you can click the link in the footer of the website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </main>
         @include('layouts.footer')
