@@ -65,6 +65,128 @@
             <!-- Third section -->
             <div class="container">
 
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="false">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-dashboard-tab" data-toggle="pill" href="#pills-dashboard" role="tab" aria-controls="pills-dashboard" aria-selected="false">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-reserve-tab" data-toggle="pill" href="#pills-reserve" role="tab" aria-controls="pills-reserve" aria-selected="false">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-book-tab" data-toggle="pill" href="#pills-book" role="tab" aria-controls="pills-book" aria-selected="false">Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-support-tab" data-toggle="pill" href="#pills-support" role="tab" aria-controls="pills-support" aria-selected="false">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-guide-tab" data-toggle="pill" href="#pills-guide" role="tab" aria-controls="pills-guide" aria-selected="false">User Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-faqs-tab" data-toggle="pill" href="#pills-faqs" role="tab" aria-controls="pills-faqs" aria-selected="false">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-disclaimer-tab" data-toggle="pill" href="#pills-disclaimer" role="tab" aria-controls="pills-disclaimer" aria-selected="false">Privacy Disclaimer</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+                    <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">...</div>
+                    <div class="tab-pane fade" id="pills-dashboard" role="tabpanel" aria-labelledby="pills-dashboard-tab">...</div>
+                    <div class="tab-pane fade" id="pills-reserve" role="tabpanel" aria-labelledby="pills-reserve-tab">...</div>
+                    <div class="tab-pane fade" id="pills-book" role="tabpanel" aria-labelledby="pills-book-tab">...</div>
+
+                    <!--support-->
+                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>Support Page</strong></h2>
+                            <div class="text-left mb-3">
+                                <p>The Support page includes a User guide, FAQs, and Privacy Disclaimer</p>
+                                <img src="{{URL('images/help.png') }}" width="750" height="350" class="img-fluid pt-3 pb-5">
+                                <li>To navigate to the user guide page you can just click the view button under the user guide card and you will redirect to that page. that you will see in the navigation menu.
+                                </li>
+                                <img src="{{URL('images/userguide.png') }}" width="430" height="30" class="img-fluid pt-3 pb-5">
+                                <li>To navigate to the Frequently asked questions you can just also click the view button under the faqs card and you will redirect to that page.
+                                </li> 
+                                <img src="{{URL('images/faq.png') }}" width="430" height="30" class="img-fluid pt-3 pb-5">
+                                <li>To navigate to the Privacy Disclaimer view you can just also click the view button under the privacy disclaimer card and you will redirect to that page.
+                                </li>
+                                <img src="{{URL('images/privacydisclaimer.png') }}" width="430" height="30" class="img-fluid pt-3">
+                                <p class="pt-4 mt-3"><strong>Tip:</strong> To navigate to the support page you can just click the <strong>Get Help</strong> button in the navigation menu or you can click the link in the footer of the website.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--user guide-->
+                    <div class="tab-pane fade" id="pills-guide" role="tabpanel" aria-labelledby="pills-guide-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>User Guide</strong></h2>
+                            <div class="text-left mb-3">
+                                <p>The User Guide Page contains a step-by-step guide to everything a user needs to know about using the Hot Desk web app. They can also provide feedback on their experiences with the system, which will assist the developers in determining what needs to be improved.</p>
+                                
+                                <h5 class="font-weight-bold">1. Navigate to the User Guide Page</h5>
+                                <ul>
+                                    <li>
+                                        To view the user guide page, you need to navigate first to the <strong>Get Help</strong> that you can see in the navigation menu.
+                                    </li>
+                                    <li>
+                                        After navigating to Get Help. you will be redirected to the Support page which includes a user guide, FAQs, and Privacy Disclaimer.
+                                    </li> 
+                                    <li>
+                                        Click the view button under the user guide card and you will redirect to the User Guide Page.
+                                    </li>
+                                </ul>
+                                
+                                <h5 class="font-weight-bold mt-3">2. View the step by step guide</h5>
+                                <p>In viewing the step by step guide users can just scrolling down to view the entire guide.</p>
+
+                                <h5 class="font-weight-bold mt-3">3. Make a Feedback</h5>
+                                <p>Making feedback is optional for all users but it is suggested to provide feedback to users for the future improvements of the system.</p>
+                            
+                                <img src="{{URL('images/userguide.png') }}" width="430" height="30" class="img-fluid pt-3">
+                                
+                                <li class="mt-3">
+                                    In making feedback, just click submit feedback and a new tab of G-form will open and you can type anything that you experienced throughout using the system either positive or negative.
+                                </li> 
+
+                                <img src="{{URL('images/userguide.png') }}" width="430" height="30" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--faqs-->
+                    <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>Frequently Asked Questions</strong></h2>
+                            <div class="text-left mb-3">
+                                <h5 class="font-weight-bold mb-5">Navigate to the FAQs Page</h5>
+                                <li>To view the FAQs page, you need to navigate first to the Get Help that you can see in the navigation menu.</li>
+                                <li>After navigating to Get Help. you will be redirected to the Support page which includes a user guide, FAQs, and Privacy Disclaimer.</li>
+                                <li>Click the view button under the FAQs card and you will redirect to the Frequently asked questions page.</li>
+                                <img src="{{URL('images/faqs-page.png') }}" width="750" height="350" class="img-fluid mt-5">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--disclaimer-->
+                    <div class="tab-pane fade" id="pills-disclaimer" role="tabpanel" aria-labelledby="pills-disclaimer-tab">
+                        <div class="pt-3">
+                            <h2 class="text-left pb-3 text-warning"><strong>Privacy Disclaimer</strong></h2>
+                            <div class="text-left mb-3">
+                                <p>The Privacy  Disclaimer page states how the company or website collects, handles, and processes the data of its users. This page explains what personal information they collect from you when you use the website, how they use your information, and the choices you have regarding their use of your information.</p>
+                                <img src="{{URL('images/privacy-disclaimer.png') }}" width="750" height="350" class="img-fluid">
+
+                                <p class="pt-4 mt-3"><strong>Note:</strong> To view the Privacy Disclaimer page, you need to navigate first to the Get Help that you can see in the navigation menu, or for a shortcut, you can click the link in the footer of the website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!--account set up guide-->
                 <div class="pt-3">
                     <h2 class="text-left pb-5 text-warning"><strong>Setting up your account</strong></h2>
@@ -111,7 +233,9 @@
                         </li>
                     </div>
                 </div>
-                <div class="container" id="video-tutorial">
+
+                <!--video tutorial-->
+                <!--<div class="container" id="video-tutorial">
                     <div class="col mt-5 mb-5">
                         <h3 class="font-weight-bold">Get started a lot faster by watching the tutorial</h3>
                         <h1 class="text-warning font-weight-bold">Hot Desk Video Guide</h1>
@@ -121,7 +245,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div>-->
+
                 <!--manage bookings guide-->
                 <div class="pt-3">
                     <h2 class="text-left pb-3 text-warning"><strong>Manage Bookings</strong></h2>
@@ -160,85 +285,6 @@
                             <h5 class="card-title">Thank you for your support.</h5>
                             <p class="card-text">Was this article helpful? Submit your feedback about the site for future improvements and fixes.</p>
                             <a class="btn btn-outline-warning active" href="https://tinyurl.com/2p82zkcc" role="button" target="_blank">Submit Feedback</a>
-                        </div>
-                    </div>
-                </div>
-
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="false">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-dashboard-tab" data-toggle="pill" href="#pills-dashboard" role="tab" aria-controls="pills-dashboard" aria-selected="false">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-reserve-tab" data-toggle="pill" href="#pills-reserve" role="tab" aria-controls="pills-reserve" aria-selected="false">Reservation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-book-tab" data-toggle="pill" href="#pills-book" role="tab" aria-controls="pills-book" aria-selected="false">Bookings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-support-tab" data-toggle="pill" href="#pills-support" role="tab" aria-controls="pills-support" aria-selected="false">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-guide-tab" data-toggle="pill" href="#pills-guide" role="tab" aria-controls="pills-guide" aria-selected="false">User Guide</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-faqs-tab" data-toggle="pill" href="#pills-faqs" role="tab" aria-controls="pills-faqs" aria-selected="false">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-disclaimer-tab" data-toggle="pill" href="#pills-disclaimer" role="tab" aria-controls="pills-disclaimer" aria-selected="false">Privacy Disclaimer</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-                    <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">...</div>
-                    <div class="tab-pane fade" id="pills-dashboard" role="tabpanel" aria-labelledby="pills-dashboard-tab">...</div>
-                    <div class="tab-pane fade" id="pills-reserve" role="tabpanel" aria-labelledby="pills-reserve-tab">...</div>
-                    <div class="tab-pane fade" id="pills-book" role="tabpanel" aria-labelledby="pills-book-tab">...</div>
-                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">...</div>
-
-
-                    <div class="tab-pane fade" id="pills-guide" role="tabpanel" aria-labelledby="pills-guide-tab">
-                        <div class="pt-3">
-                            <h2 class="text-left pb-3 text-warning"><strong>User Guide</strong></h2>
-                            <div class="text-left pb-5 mb-3">
-                                <h5 class="font-weight-bold mb-5">Navigate to the FAQs Page</h5>
-                                <p>• To view the FAQs page, you need to navigate first to the Get Help that you can see in the navigation menu.</p>
-                                <p>• After navigating to Get Help. you will be redirected to the Support page which includes a user guide, FAQs, and Privacy Disclaimer.</p>
-                                <p>• Click the view button under the FAQs card and you will redirect to the Frequently asked questions page.</p>
-                                <img src="{{URL('images/faqs-page.png') }}" width="750" height="350" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--faqs-->
-                    <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
-                        <div class="pt-3">
-                            <h2 class="text-left pb-3 text-warning"><strong>Frequently Asked Questions</strong></h2>
-                            <div class="text-left pb-5 mb-3">
-                                <h5 class="font-weight-bold mb-5">Navigate to the FAQs Page</h5>
-                                <p>• To view the FAQs page, you need to navigate first to the Get Help that you can see in the navigation menu.</p>
-                                <p>• After navigating to Get Help. you will be redirected to the Support page which includes a user guide, FAQs, and Privacy Disclaimer.</p>
-                                <p>• Click the view button under the FAQs card and you will redirect to the Frequently asked questions page.</p>
-                                <img src="{{URL('images/faqs-page.png') }}" width="750" height="350" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--disclaimer-->
-                    <div class="tab-pane fade" id="pills-disclaimer" role="tabpanel" aria-labelledby="pills-disclaimer-tab">
-                        <div class="pt-3">
-                            <h2 class="text-left pb-3 text-warning"><strong>Privacy Disclaimer</strong></h2>
-                            <div class="text-left pb-5 mb-3">
-                                <p>The Privacy  Disclaimer page states how the company or website collects, handles, and processes the data of its users. This page explains what personal information they collect from you when you use the website, how they use your information, and the choices you have regarding their use of your information.</p>
-                                <img src="{{URL('images/privacy-disclaimer.png') }}" width="750" height="350" class="img-fluid">
-
-                                <p class="pt-4 mt-3"><strong>Note:</strong> To view the Privacy Disclaimer page, you need to navigate first to the Get Help that you can see in the navigation menu, or for a shortcut, you can click the link in the footer of the website.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
