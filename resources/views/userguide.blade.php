@@ -87,21 +87,32 @@
                 </div>
                 <!--Book a desk guide-->
                 <div class="pt-3">
-                    <h2 class="text-left pb-5 text-warning"><strong>How to reserve a desk?</strong></h2>
+                    <h2 class="text-left pb-5 text-warning"><strong>BOOK A DESK</strong></h2>
                     <div class="text-left pb-5 mb-3">
-                        <h5 class="font-weight-bold">Step 1. Temporary unavailable</h5>
-                        <p>This part is currently not available. Developers will make it possible to fix the issue in no time. Thank you for your kind consideration</p>
-                        <img src="{{URL('images/unavailable.png') }}" width="750" height="350" class="img-fluid">
+                        <h5><strong>Step 1. Go to the booking page</strong> ( navbar book a desk > reservation )</h5>
+                        <p>Before reserving or booking a desk make sure that you are already logged in. After logging in, you will redirect to the dashboard page.
+                        <li>On the dashboard page navigate to the <strong>Book a Desk → Reservation</strong> that you will see in the navigation menu.
+                        </li><br>
+                        <img src="{{URL('images/reservation.png') }}" width="750" height="350" class="img-fluid">
                     </div>
                     <div class="text-left pb-5 mb-3">
-                        <h5 class="font-weight-bold">Step 2. Temporary unavailable</h5>
-                        <p>This part is currently not available. Developers will make it possible to fix the issue in no time. Thank you for your kind consideration</p>
-                        <img src="{{URL('images/unavailable.png') }}" width="750" height="350" class="img-fluid">
+                        <h5><strong>Step 2. Fill up the form</strong> ( type in a title for reservation, type in a description, select date, select location )</h5>
+                        <p>After navigating to the Book a Desk you will now see the Booking page wherein in this page you can create a reservation of available desks. 
+                        <ul>
+                            <li>In booking a desk, first is to fill up the <strong>title</strong> and <strong>description</strong> of your booking
+                            </li>
+                            <li>Second, choose or <strong>select a desk location</strong> that you want to reserve by filling up the first input field. With the help of an Office map & Desk location picture, you can see the available, reserved, and occupied desks so you can easily choose your preferred desk that is available at your time of booking.
+                            </li>
+                            <li>After that, <strong>select a date</strong> of your preferred and scheduled work to reserve your desk by also filling up the second input field. With the help of a calendar picker, you can easily pick your desired date. With also the help of an embedded calendar view, you can easily see the reserved desks on the dates in the calendar.
+                            </li>
+                        </ul>
+                        </p>
+                        <img src="{{URL('images/desk-reservation.png') }}" width="750" height="350" class="img-fluid">
                     </div>
                     <div class="text-left pb-5 mb-3">
-                        <h5 class="font-weight-bold">Step 3. Temporary unavailable</h5>
-                        <p>This part is currently not available. Developers will make it possible to fix the issue in no time. Thank you for your kind consideration</p>
-                        <img src="{{URL('images/unavailable.png') }}" width="750" height="400" class="img-fluid">
+                        <h5><strong>Step 3. Click reserve button</strong></h5>
+                        <li>Lastly, click the <strong>Reserve desk</strong> button after you finally decide on the desk location you want and the date of your reservation.
+                        </li>
                     </div>
                 </div>
                 <div class="container" id="video-tutorial">
